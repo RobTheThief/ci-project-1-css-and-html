@@ -48,6 +48,27 @@ img {
     width: 30%;
 }
 
+canvas {
+    background: no-repeat url("../images/canvas.jpg");
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    -webkit-mask-image: -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+}
+
+footer > canvas  {
+    -webkit-mask-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+  }
+
 li:hover {
     border-color: black;
     background-color: rgb(221, 57, 57);
