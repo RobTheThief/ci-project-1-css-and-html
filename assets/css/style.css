@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto:wght@300&display=swap");
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#h1_left {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+  
+  #h1_right {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    border: solid rgba(0, 0, 0, 0);
+    border-width: 2px;
+    border-radius: 15% 50% 50% 50%;
+    transition: 0.3s ease-out;
+  }
