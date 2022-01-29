@@ -11,6 +11,14 @@ h1 {
     width: 100%;
 }
 
+header {
+    width: 100%;
+    text-align: center;
+    border: solid black;
+    border-width: 0 0 5px 0;
+    border-radius: 5px;
+}  
+
 nav {
     position: sticky;
     top: 0px;
@@ -21,7 +29,7 @@ nav {
 li {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 8px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 17px;
     font-weight: 900;
@@ -29,6 +37,15 @@ li {
     border-width: 2px;
     border-radius: 15% 50% 50% 50%;
     transition: 0.3s ease-out;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
 }
 
 li:hover {
@@ -54,11 +71,27 @@ li:hover {
     border: solid black;
     border-width: 0 0 5px 0;
     border-radius: 0 0 45% 45%;
-    width: 30%;
+    width: 360px;
     background-color: none;
     background-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 0),
       rgb(221, 57, 57)
+    );
+}
+
+#banner_left {
+    -webkit-mask-image: -webkit-linear-gradient(
+      right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+}
+  
+#banner_right {
+    -webkit-mask-image: -webkit-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
     );
 }
