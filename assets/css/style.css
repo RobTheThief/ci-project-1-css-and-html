@@ -83,7 +83,32 @@ footer > #landing_image  {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#msg_container {
     height: 100%;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#welcome_msg_1 {
+    color: #eec28900;
+    height: 100%;
+    width: 100%;
+    animation: fadeOut 2s 1 ease-out;
+}
+
+#welcome_msg_2 {
+    color: #eec28900;
+    background-color: rgba(0, 0, 0, 0);
+    height: 13.26em;
+    width: 100%;
+    position: relative;
+    top: -16em;
+    left: 0;
+    animation: fadeIn 4s 2s 1 ease-in-out;
 }
 
 #brazil_button {
@@ -143,7 +168,7 @@ footer > #landing_image  {
 
 #h1_left, #h1_right {
     display: inline-block;
-    width: 40%;
+    width: 43%;
     text-align: left;
 }
   
@@ -179,4 +204,25 @@ footer > #landing_image  {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
+}
+
+@keyframes fadeOut {
+    0% {
+        color: #eec389;
+    }
+    100% {
+        color: #eec28900;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        color: #eec28900;
+    }
+    50% {
+        color: #eec389;
+    }
+    100% {
+        color: #eec28900;
+    }
 }
