@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id='html' lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +14,20 @@
     <div id="header_and_nav">
         <header> 
             <h1 id="welcome_container">
-                <a href="index.html" id="h1_left">AN TOBAIR SEGAIS</a><a href="index.html" id="h1_right">INTERPRETING MENTORS</a>
+                <a href="index.html" id="h1_left">AN TOBAIR SEGAIS</a>
+                <a href="index.html" id="h1_right">INTERPRETING MENTORS</a>
+                <div id='language_button_container'>
+                    <button id="brazil_button" onClick=setPortugese() ></button>
+                    <button id="england_button" onClick=setEnglish() ></button>
+                </div>
             </h1>
             <nav>
                 <div id='nav_wrap'>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" id="home">Home</a></li>
+                        <li><a href="#" id="about">About</a></li>
+                        <li><a href="#" id="videos">Videos</a></li>
+                        <li><a href="#" id="contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -86,3 +91,4 @@
     </footer>
 </body>
 </html>
+<script src="assets/javascript/language.js"></script>
