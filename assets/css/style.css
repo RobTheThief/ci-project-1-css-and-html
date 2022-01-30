@@ -15,21 +15,22 @@ h1 {
     font-size: 25px;
     font-family: "Josefin Sans", sans-serif;
     width: 100%;
+    padding: 1% 0 1% 0;
+    border: solid black;
+    border-width: 0 0 5px 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+    background-color: white;
 }
 
 header {
     width: 100%;
     text-align: center;
-    border: solid black;
-    border-width: 0 0 5px 0;
-    border-radius: 5px;
 }  
 
 nav {
-    position: sticky;
-    top: 0;
     width: 100%;
-    z-index: 100;
+    text-align: left;
 }
 
 li {
@@ -60,19 +61,9 @@ footer {
     width: 100%;
 }
 
-#canvas {
-    background: no-repeat url("../images/canvas.jpg");
-    background-size: cover;
-    background-color: black;
-    background-position: 50% 50%;
-    height: 100%;
-    width: 100%;
-    right: 5%;
-    -webkit-mask-image: -webkit-linear-gradient(
-      bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
+li:hover {
+    border-color: black;
+    background-color: rgb(221, 57, 57);
 }
 
 footer > #canvas  {
@@ -81,22 +72,41 @@ footer > #canvas  {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
-  }
-
-li:hover {
-    border-color: black;
-    background-color: rgb(221, 57, 57);
 }
 
-#h1_left {
+#header_and_nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#main_image {
+    width: 100%;
+    text-align: center;
+}
+
+#canvas {
+    background: no-repeat url("../images/canvas.jpg");
+    background-size: cover;
+    background-color: black;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+    -webkit-mask-image: -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+}
+
+#h1_left, #h1_right {
     display: inline-block;
     width: 45%;
     text-align: left;
 }
   
 #h1_right {
-    display: inline-block;
-    width: 45%;
     text-align: right;
 }
 
