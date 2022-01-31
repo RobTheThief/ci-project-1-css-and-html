@@ -10,7 +10,7 @@
     <title>An Tobair Segais - Interpreting Mentors</title>
 </head>
 <body>
-    <div id="landing_image">
+    <div class="landing_image">
         <div id="msg_container">
             <a class="welcome_msg" id="welcome_msg_1">Welcome to An Tobair Segais!</a>
             <a href="#header_and_nav" class="welcome_msg" id="welcome_msg_2">Click here to learn more</a>
@@ -21,10 +21,8 @@
             <h1 id="welcome_container">
                 <a href="index.html" id="h1_left">AN TOBAIR SEGAIS</a>
                 <a href="index.html" id="h1_right">INTERPRETING MENTORS</a>
-                <div id='language_button_container'>
-                    <button id="brazil_button" onClick=setPortugese() ></button>
-                    <button id="england_button" onClick=setEnglish() ></button>
-                </div>
+                    <button id="brazil_button" class='language_button' onClick=setPortugese() ></button>
+                    <button id="england_button" class='language_button' onClick=setEnglish() ></button>
             </h1>
             <nav>
                 <div id='nav_wrap'>
@@ -39,9 +37,9 @@
         </header>
     </div>
     <section id='main_image'>
-        <img src="assets/images/bannerleft.jpg" id="banner_left">
-        <img src="assets/images/mainbannercenter.png" id="banner_center">
-        <img src="assets/images/bannerright.jpg" id="banner_right">
+        <img src="assets/images/bannerleft.jpg" alt="Heads with speech bubbles. Left side of main banner" id="banner_left">
+        <img src="assets/images/mainbannercenter.png" alt="People with speech bubbles. Center of main banner" id="banner_center">
+        <img src="assets/images/bannerright.jpg" alt="Heads with speech bubbles. Right side of main banner" id="banner_right">
     </section>
     <section>
         Why use this web site
@@ -92,8 +90,8 @@
     </section>
     <footer>
         social media
-        <div id="landing_image"></div>
+        <div class="landing_image"></div>
     </footer>
+    <script src="assets/javascript/language.js"></script>
 </body>
 </html>
-<script src="assets/javascript/language.js"></script>

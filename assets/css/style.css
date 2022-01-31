@@ -71,12 +71,19 @@ li:hover {
     background-color: #acaeca;
 }
 
-footer > #landing_image  {
+footer > .landing_image  {
     -webkit-mask-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
+}
+
+.language_button {
+    margin-right: 1%;
+    position: absolute;
+    right: 45px;
+    bottom: 30%;
 }
 
 .welcome_msg {
@@ -117,6 +124,12 @@ footer > #landing_image  {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
     background-size: contain;
     margin: 4px;
+    right: 15px;
+    opacity: 1;
+}
+
+#brazil_button:hover {
+    opacity: 0.5;
 }
 
 #england_button {
@@ -125,13 +138,11 @@ footer > #landing_image  {
     background: grey url(../images/unionjackflag20x40.png) no-repeat center center;
     background-size: contain;
     margin: 4px;
+    opacity: 1;
 }
 
-#language_button_container {
-    margin-right: 1%;
-    position: absolute;
-    right: 0;
-    bottom: 30%;
+#england_button:hover {
+    opacity: 0.5;
 }
 
 #welcome_container {
@@ -152,13 +163,12 @@ footer > #landing_image  {
     text-align: center;
 }
 
-#landing_image {
+.landing_image {
     text-align: center;
     justify-content: center;
-    background: no-repeat url("../images/canvas.jpg");
+    background: no-repeat center center url("../images/canvas.jpg");
     background-size: cover;
     background-color: black;
-    background-position: 50% 50%;
     height: 100%;
     width: 100%;
     border: solid black;
