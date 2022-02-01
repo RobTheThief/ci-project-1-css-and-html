@@ -133,7 +133,7 @@ footer > .landing_image  {
     background-size: contain;
     right: 15px;
     opacity: 1;
-    margin: 5px 0 7px 2px;
+    margin: 0 0 7px 2px;
 }
 
 #brazil_button:hover {
@@ -144,7 +144,7 @@ footer > .landing_image  {
     background: grey url(../images/unionjackflag20x40.png) no-repeat center center;
     background-size: contain;
     opacity: 1;
-    margin: 5px 2px 7px 0;
+    margin: 0 2px 7px 0;
 }
 
 #england_button:hover {
@@ -256,7 +256,9 @@ footer > .landing_image  {
     #h1_left, #h1_right {
         font-size: 20px;
     }
-    
+    #brazil_button, #england_button {
+       margin-bottom: 9px;
+    }
 }
 
 @media only screen and (max-width: 660px) {
