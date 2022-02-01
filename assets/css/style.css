@@ -281,7 +281,13 @@ footer > .landing_image  {
     #welcome_msg_1 {
         font-size: 35px;
     }
-    
+
+    nav {
+        text-align: center;
+    }
+    #nav_wrap {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 380px) {
@@ -290,5 +296,12 @@ footer > .landing_image  {
     }
     #welcome_msg_1 {
         font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    li {
+        font-size: 15px;
+        width: 55px;
     }
 }
