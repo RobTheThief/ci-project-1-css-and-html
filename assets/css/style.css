@@ -266,6 +266,10 @@ footer > .landing_image  {
         text-align: left;
         margin: 0 100px 0 10px;
     }
+
+    #welcome_msg_1 {
+        font-size: 35px;
+    }
     
 }
 
@@ -273,5 +277,7 @@ footer > .landing_image  {
     #h1_left, #h1_right {
         font-size: 15px;
     }
-    
+    #welcome_msg_1 {
+        font-size: 30px;
+    }
 }
