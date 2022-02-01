@@ -19,10 +19,11 @@ h1 {
     font-size: 25px;
     font-family: "Josefin Sans", sans-serif;
     width: 100%;
-    padding: 1% 0 1% 0;
+    height: 30px;
+    padding: 16px 0 16px 0;
     border: solid black;
     border-width: 0 0 5px 0;
-    border-radius: 5px;
+    border-radius:  0 0 5px 0;
     margin-bottom: 0;
     margin-top: 0;
     background-color: #acaeca;
@@ -121,16 +122,18 @@ footer > .landing_image  {
     left: 0;
     animation: fadeIn 4s 2s 1 ease-in-out;
 }
+#brazil_button, #england_button {
+    height: 17px;
+    width: 24px;
+    border: solid black 1px;
+}
 
 #brazil_button {
-    height: 20px;
-    width: 30px;
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
     background-size: contain;
-    margin: 4px;
     right: 15px;
     opacity: 1;
-    margin: 0 auto;
+    margin: 5px 0 7px 2px;
 }
 
 #brazil_button:hover {
@@ -138,13 +141,10 @@ footer > .landing_image  {
 }
 
 #england_button {
-    height: 20px;
-    width: 30px;
     background: grey url(../images/unionjackflag20x40.png) no-repeat center center;
     background-size: contain;
-    margin: 4px;
     opacity: 1;
-    margin: 0 auto;
+    margin: 5px 2px 7px 0;
 }
 
 #england_button:hover {
@@ -173,12 +173,12 @@ footer > .landing_image  {
     width: 100%;
     border: solid black;
     border-width: 0 0 5px 0;
-    border-radius: 5px;
+    border-radius:  0 0 5px 0;
 }
 
 #h1_left {
     display: inline-block;
-    margin-left: 90px;
+    margin: auto 0 auto 90px;
     float: left;
     vertical-align: middle;
 }
@@ -186,8 +186,7 @@ footer > .landing_image  {
 #h1_right {
     display: inline-block;
     float: right;
-    margin-right: 90px;
-    margin-left: 20px;
+    margin: auto 90px auto 20px;
     vertical-align: middle;
 }
 
