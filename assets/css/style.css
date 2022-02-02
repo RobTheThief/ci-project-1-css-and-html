@@ -32,6 +32,17 @@ h1 {
 h2{
     text-align: center;
     margin-top: 3em;
+    text-decoration: underline;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline;
+    font-size: 25px;
+    font-weight: 900;
+    color: #9338ff;
 }
 
 header {
@@ -72,10 +83,6 @@ button {
     float: right;
 }
 
-img {
-    width: 30%;
-}
-
 footer {
     text-align: center;
     height: 100%;
@@ -94,17 +101,29 @@ footer > .landing_image  {
       rgba(0, 0, 0, 1)
     );
 }
+.attribute_pair {
+    text-align: left;
+}
+
+.attribute_icons {
+    display: inline;
+    width: 25px;
+    position: relative;
+    top: 3px;
+
+}
 
 .positive_attribute {
     font-size: 20px;
     font-weight: 900;
-    padding: 20px;
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 .language_button {
-    margin-right: 1%;
     position: absolute;
-    right: 45px;
+    right: 60px;
     bottom: 30%;
 }
 
@@ -112,6 +131,28 @@ footer > .landing_image  {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.landing_image {
+    text-align: center;
+    justify-content: center;
+    background: no-repeat center center url("../images/canvas.jpg");
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border: solid black;
+    border-width: 0 0 5px 0;
+    border-radius:  0 0 5px 0;
+}
+
+#accessibility_icon {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 80px;
+    top: 19px;
+    margin: 0 11px 7px 0;
 }
 
 #msg_container {
@@ -148,7 +189,7 @@ footer > .landing_image  {
 #brazil_button {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
     background-size: contain;
-    right: 15px;
+    right: 30px;
     opacity: 1;
     margin: 0 0 7px 2px;
 }
@@ -184,19 +225,6 @@ footer > .landing_image  {
     text-align: center;
 }
 
-.landing_image {
-    text-align: center;
-    justify-content: center;
-    background: no-repeat center center url("../images/canvas.jpg");
-    background-size: cover;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    border: solid black;
-    border-width: 0 0 5px 0;
-    border-radius:  0 0 5px 0;
-}
-
 #h1_left {
     display: inline-block;
     margin: auto 0 auto 90px;
@@ -207,7 +235,7 @@ footer > .landing_image  {
 #h1_right {
     display: inline-block;
     float: right;
-    margin: auto 90px auto 20px;
+    margin: auto 130px auto 20px;
     vertical-align: middle;
 }
 
@@ -290,11 +318,14 @@ footer > .landing_image  {
     #brazil_button, #england_button {
        margin-bottom: 9px;
     }
+    #accessibility_icon {
+        top: 17px;
+    }
 }
 
 @media only screen and (max-width: 890px) {
     #positive_attributes {
-        display: inline-block; 
+        display: inline-block;
     }
     #banner_center {
         padding: 4em 0 4em 0;
@@ -302,17 +333,24 @@ footer > .landing_image  {
         width: 300px;
         display: inline-block;
     }
+    .attribute_pair {
+        text-align: center;
+    }
+    .positive_attribute {
+        text-align: center;
+    }
     
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 700px) {
     #h1_left, #h1_right {
         display: block;
         float: left;
         text-align: left;
         margin: 0 100px 0 10px;
     }
-
+}
+@media only screen and (max-width: 660px) {
     #welcome_msg_1 {
         font-size: 35px;
     }
