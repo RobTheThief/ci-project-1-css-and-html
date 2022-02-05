@@ -176,34 +176,46 @@ li:hover {
 }
 
 #welcome_msg_1 {
-    animation: fadeOut 4s 1 ease-in-out;
+    animation: fadeOut 16s infinite ease-in-out;
 }
 
 #welcome_msg_2 {
-    animation: fadeInOut 4s 4s 1 ease-in-out;
+    animation: fadeInOut1 16s infinite ease-in-out;
 }
 
 #welcome_msg_3 {
-    animation: fadeInOut 4s 8s 1 ease-in-out;
+    animation: fadeInOut2 16s infinite ease-in-out;
 }
 
 @keyframes fadeOut {
     0% {
         color: #30313300;
     }
-    50% {
+    25% {
         color: #303133;
     }
-    100% {
+    50% {
         color: #30313300;
     }
 }
 
-@keyframes fadeInOut{
-    0% {
+@keyframes fadeInOut1{
+    0%,25% {
         color: #30313300;
     }
     50% {
+        color: #303133;
+    }
+    75% {
+        color: #30313300;
+    }
+}
+
+@keyframes fadeInOut2{
+    0%,25%,50% {
+        color: #30313300;
+    }
+    75% {
         color: #303133;
     }
     100% {
