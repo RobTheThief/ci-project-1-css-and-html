@@ -131,10 +131,10 @@ li:hover {
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     height: 50px;
-    width: 35%;
-    color: #30313300;
+    width: 45%;
+    color: #3773eb00;
     position: relative;
-    top: -60%;
+    top: 40%;
     margin-left: 15px;
 }
 
@@ -144,7 +144,7 @@ li:hover {
     margin-top: 50px;
     position: relative;
     padding-left: 30px;
-    top: -40%;
+    top: 60%;
     animation: bounce 2s infinite linear;
 }
 
@@ -155,19 +155,6 @@ li:hover {
     100% {
         margin-top: 70px;
     }
-}
-
-.landing_video {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    background-color: #cee4ec;
-    height: 100%;
-    width: 100%;
-    border: solid black;
-    border-width: 0 0 5px 0;
-    border-radius:  0 0 5px 0;
-    z-index: 0;
 }
 
 .logo {
@@ -192,8 +179,10 @@ li:hover {
 #msg_container {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6) url('../images/starheadwoman.jpg') no-repeat center center;
+    background-size: cover;
     font-size: 35px;
+    margin-top: 67px;
 }
 
 #welcome_msg_1 {
@@ -210,37 +199,37 @@ li:hover {
 
 @keyframes fadeOut {
     0% {
-        color: #30313300;
+        color: #3773eb00;
     }
     25% {
-        color: #303133;
+        color: #3773eb;
     }
     50% {
-        color: #30313300;
+        color: #3773eb00;
     }
 }
 
 @keyframes fadeInOut1{
     0%,25% {
-        color: #30313300;
+        color: #3773eb00;
     }
     50% {
-        color: #303133;
+        color: #3773eb;
     }
     75% {
-        color: #30313300;
+        color: #3773eb00;
     }
 }
 
 @keyframes fadeInOut2{
     0%,25%,50% {
-        color: #30313300;
+        color: #3773eb00;
     }
     75% {
-        color: #303133;
+        color: #3773eb;
     }
     100% {
-        color: #30313300;
+        color: #3773eb00;
     }
 }
 
@@ -327,6 +316,10 @@ li:hover {
     display: inline-block;
 }
 
+div > img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 986px) {
     
     .welcome_msg {
@@ -371,7 +364,6 @@ li:hover {
     }
     .welcome_msg {
         font-size: 17px;
-        top: -75%;
     }
     #msg_container {
         height: 40%;
@@ -390,51 +382,42 @@ li:hover {
 @media only screen and (max-width: 380px) {
     .welcome_msg {
         font-size: 16px;
-    }
-    .down_arrow {
-        top: -93%;
-    }  
+    } 
 }
 
-@media only screen and (max-width: 375px) {
-    
-    .down_arrow {
-        top: -105%;
-    }  
-}
 
 @media only screen and (max-width: 360px) {
     li {
         font-size: 15px;
         width: 55px;
     }
-    .down_arrow {
-        top: -93%;
+    .welcome_message {
+        top: 100%;
     }
-}
-
-@media only screen and (max-width: 320px) {
-    .down_arrow {
-        top: -100%;
-    }
-}    
+}  
 
 @media (max-height: 706px) and (orientation: landscape){
     
     .down_arrow {
-        top: -60%;
+        top: 40%;
     }    
 }
 
 @media (max-height: 465px) and (orientation: landscape){
     .down_arrow {
-        top: -70%;
+        top: 30%;
     }    
 }
 
 @media(max-height: 395px)  and (orientation: landscape){
     .down_arrow {
-        top: -80%;
+        top: 25%;
+    }    
+}
+
+@media(max-height: 360px)  and (orientation: landscape){
+    .down_arrow {
+        top: 20%;
     }    
 }
 
