@@ -134,7 +134,7 @@ li:hover {
     width: 45%;
     color: #3773eb00;
     position: relative;
-    top: 40%;
+    top: 20%;
     margin-left: 15px;
 }
 
@@ -142,6 +142,7 @@ li:hover {
     display: flex;
     justify-content: left;
     margin-top: 50px;
+    margin-left: 20px;
     position: relative;
     padding-left: 30px;
     top: 60%;
@@ -387,14 +388,17 @@ div > img {
 
 
 @media only screen and (max-width: 360px) {
-    li {
-        font-size: 15px;
-        width: 55px;
-    }
     .welcome_message {
         top: 100%;
     }
 }  
+
+@media (max-height: 810px) and (orientation: landscape){
+    
+    .down_arrow {
+        top: 55%;
+    }    
+}
 
 @media (max-height: 706px) and (orientation: landscape){
     
@@ -405,19 +409,19 @@ div > img {
 
 @media (max-height: 465px) and (orientation: landscape){
     .down_arrow {
-        top: 30%;
-    }    
+        top: 17%;
+    }
 }
 
 @media(max-height: 395px)  and (orientation: landscape){
     .down_arrow {
-        top: 25%;
+        top: 10%;
     }    
 }
 
 @media(max-height: 360px)  and (orientation: landscape){
     .down_arrow {
-        top: 20%;
+        top: 5%;
     }    
 }
 
