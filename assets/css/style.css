@@ -124,12 +124,6 @@ li:hover {
     text-align: justify;
 }
 
-.language_button {
-    position: absolute;
-    right: 60px;
-    bottom: 30%;
-}
-
 .welcome_msg {
     display: flex;
     align-items: center;
@@ -217,32 +211,21 @@ li:hover {
     }
 }
 
-#brazil_button, #england_button {
-    height: 17px;
-    width: 24px;
-    border: solid black 1px;
-}
-
-#brazil_button {
+#language_button {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
     background-size: contain;
     right: 30px;
     opacity: 1;
     margin: 0 0 7px 2px;
+    height: 17px;
+    width: 24px;
+    border: solid black 1px;
+    position: absolute;
+    right: 60px;
+    bottom: 30%;
 }
 
-#brazil_button:hover {
-    opacity: 0.5;
-}
-
-#england_button {
-    background: grey url(../images/unionjackflag20x40.png) no-repeat center center;
-    background-size: contain;
-    opacity: 1;
-    margin: 0 2px 7px 0;
-}
-
-#england_button:hover {
+#language_button:hover {
     opacity: 0.5;
 }
 
