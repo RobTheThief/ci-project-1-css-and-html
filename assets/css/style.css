@@ -131,10 +131,11 @@ li:hover {
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     height: 50px;
-    width: 40%;
+    width: 35%;
     color: #30313300;
     position: relative;
     top: -60%;
+    margin-left: 15px;
 }
 
 .down_arrow {
@@ -378,19 +379,25 @@ li:hover {
     }
     .welcome_msg {
         font-size: 17px;
+        top: -75%;
     }
     #msg_container {
         height: 40%;
     }
     .down_arrow {
         top: -80%;
-    }  
+    }
+    a > img {
+        width: 49px;
+    }
+    .down_arrow {
+        display: none;
+    } 
 }
 
 @media only screen and (max-width: 380px) {
     .welcome_msg {
         font-size: 16px;
-        top: -75%;
     }
     .down_arrow {
         top: -93%;
@@ -414,6 +421,12 @@ li:hover {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .down_arrow {
+        top: -100%;
+    }
+}    
+
 @media (max-height: 706px) and (orientation: landscape){
     
     .down_arrow {
@@ -433,5 +446,20 @@ li:hover {
     }    
 }
 
+@media(max-width: 1080px)  and (orientation: landscape){
+    .welcome_msg {
+        font-size: 27px;
+    }  
+}
 
+@media(max-width: 812px)  and (orientation: landscape){
+    .welcome_msg {
+        font-size: 25px;
+    }  
+}
 
+@media(max-width: 667px)  and (orientation: landscape){
+    .welcome_msg {
+        font-size: 21px;
+    }  
+}
