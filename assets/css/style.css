@@ -134,6 +134,13 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    height: 50px;
+    width: 40%;
+    color: #30313300;
+    position: relative;
+    top: -60%;
 }
 
 .landing_video {
@@ -170,30 +177,46 @@ li:hover {
 #msg_container {
     height: 100%;
     width: 100%;
-    font-size: 50px;
-    font-weight: 900;
     background-color: rgba(0, 0, 0, 0.6);
+    font-size: 35px;
 }
 
 #welcome_msg_1 {
-    color: #eec28900;
-    height: 100%;
-    width: 100%;
-    animation: fadeOut 2s 1 ease-out;
-    position: relative;
-    top: -100%;
+    animation: fadeOut 4s 1 ease-in-out;
 }
 
 #welcome_msg_2 {
-    color: #eec28900;
-    background-color: rgba(0, 0, 0, 0);
-    height: 13.26em;
-    width: 100%;
-    position: relative;
-    top: -185%;
-    animation: fadeIn 4s 2s 1 ease-in-out;
-    z-index: 100;
+    animation: fadeInOut 4s 4s 1 ease-in-out;
 }
+
+#welcome_msg_3 {
+    animation: fadeInOut 4s 8s 1 ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        color: #30313300;
+    }
+    50% {
+        color: #303133;
+    }
+    100% {
+        color: #30313300;
+    }
+}
+
+@keyframes fadeInOut{
+    0% {
+        color: #30313300;
+    }
+    50% {
+        color: #303133;
+    }
+    100% {
+        color: #30313300;
+    }
+}
+
 #brazil_button, #england_button {
     height: 17px;
     width: 24px;
@@ -290,36 +313,10 @@ li:hover {
     display: inline-block;
 }
 
-@keyframes fadeOut {
-    0% {
-        color: #eec389;
-    }
-    100% {
-        color: #eec28900;
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        color: #eec28900;
-    }
-    50% {
-        color: #eec389;
-    }
-    100% {
-        color: #eec28900;
-    }
-}
-
-
 @media only screen and (max-width: 986px) {
     #msg_container {
         height: 40%;
-    }
-    #welcome_msg_2 {
-        display: none;
-    }
-    
+    }  
 }
 
 @media only screen and (max-width: 935px) {
