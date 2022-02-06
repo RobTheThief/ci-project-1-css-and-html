@@ -31,9 +31,10 @@ h1 {
 
 h2{
     text-align: center;
-    margin-top: 1em;
     margin-bottom: 10px;
     text-decoration: underline;
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 h3 {
@@ -163,9 +164,23 @@ li:hover {
    
 }
 
+.about {
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 p > span {
     font-size: 15px;
     font-style: italic;
+}
+
+section > .testimonial {
+    text-align: justify;
+    width: 50%;
+    padding-top: 20px;
+    margin: 50px 20px 0 0;
 }
 
 #accessibility_icon {
@@ -299,14 +314,11 @@ p > span {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
-}
-  
-#banner_right {
-    -webkit-mask-image: -webkit-linear-gradient(
-      left,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
+    width: 35%;
+    min-height: 120px;
+    max-height: 210px;
+    min-width: 300px;
+    margin: 50px 40px 0 20px;
 }
 
 #banner_center {
@@ -320,6 +332,11 @@ div > img {
     width: 100%;
 }
 
+@media only screen and (max-width: 1296px) {
+    .about {
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 986px) {
     
     .welcome_msg {
