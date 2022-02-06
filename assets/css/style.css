@@ -13,20 +13,7 @@ body {
 }
 
 h1 {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    font-size: 25px;
-    font-family: "Josefin Sans", sans-serif;
-    width: 100%;
-    height: 30px;
-    padding: 16px 0 16px 0;
-    border: solid black;
-    border-width: 0 0 5px 0;
-    border-radius:  0 0 5px 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    background-color: #acaeca;
+    margin: 0;
 }
 
 h2{
@@ -53,27 +40,52 @@ header {
 }  
 
 nav {
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
     width: 100%;
-    text-align: left;
+    height: 30px;
+    padding: 16px;
+    border: solid black;
+    border-width: 0 0 5px 0;
+    border-radius:  0 0 5px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #acaeca;
 }
 
 ul {
     padding: 0;
     text-align: center;
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 130px;
+    bottom: 5px;
 }
 
 li {
     list-style: none;
     display: inline-block;
-    width: 65px;
-    padding: 8px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 17px;
     font-weight: 900;
-    border: solid rgba(0, 0, 0, 0);
-    border-width: 2px;
-    border-radius: 15% 50% 50% 50%;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 0 2px 0;
+    border-radius: 10%;
     transition: 0.3s ease-out;
+    color: rgb(0, 0, 0);
+}
+
+li:hover {
+   border-color: rgb(105, 103, 103);
+}
+
+li > a {
+    color: black;
+}
+
+li > a:hover {
+    color: rgb(105, 103, 103);
 }
 
 a {
@@ -99,11 +111,6 @@ footer {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
-}
-
-li:hover {
-    border-color: black;
-    background-color: #acaeca;
 }
 
 .testimonial_pair {
@@ -197,7 +204,6 @@ section > .testimonial {
     background: rgba(0, 0, 0, 0.6) url('../images/starheadwoman.jpg') no-repeat center center;
     background-size: cover;
     font-size: 35px;
-    margin-top: 67px;
 }
 
 #welcome_msg_1 {
@@ -257,7 +263,7 @@ section > .testimonial {
     border: solid black 1px;
     position: absolute;
     right: 30px;
-    bottom: 30%;
+    bottom: 37%;
 }
 
 #language_button:hover {
@@ -266,7 +272,7 @@ section > .testimonial {
 
 #header_and_nav {
     position: sticky;
-    top: 67px;
+    top: 0px;
     width: 100%;
     z-index: 100;
 }
@@ -280,32 +286,13 @@ section > .testimonial {
     text-align: center;
 }
 
-#h1_left {
-    display: inline-block;
-    margin: auto 0 auto 90px;
-    float: left;
-    vertical-align: middle;
-}
   
-#h1_right {
+h1 > a {
     display: inline-block;
-    float: right;
-    margin: auto 130px auto 20px;
+    float: left;
+    margin: auto 20px auto 50px;
     vertical-align: middle;
-}
-
-#nav_wrap {
-    display: inline-block;
-    text-align: left;
-    border: solid black;
-    border-width: 0 0 5px 0;
-    border-radius: 0 0 45% 45%;
-    width: 360px;
-    background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0),
-      #acaeca
-    );
+    font-size: 25px;
 }
 
 #banner_left {
@@ -340,16 +327,15 @@ div > img {
         width: 70%;
     }
 }
+@media only screen and (max-width: 1128px) {
+    h1 {
+        display: none;
+    }
+}
 @media only screen and (max-width: 986px) {
     
     .welcome_msg {
         font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 935px) {
-    #h1_left, #h1_right {
-        font-size: 20px;
     }
 }
 
@@ -369,18 +355,11 @@ div > img {
     .positive_attribute {
         text-align: center;
     }
-    #h1_left, #h1_right {
-        display: none;
-    }
-    
 }
 
 @media only screen and (max-width: 660px) {
     nav {
         text-align: center;
-    }
-    #nav_wrap {
-        width: 100%;
     }
     .welcome_msg {
         font-size: 17px;
@@ -399,16 +378,47 @@ div > img {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    li {
+        font-size: 15px;
+    }
+    .logo {
+        left: -10px;
+        bottom: 5%;
+        width: 60px;
+    }
+    #language_button {
+        right: 8px;
+        height: 21px;
+        width: 30px;
+    }
+    #accessibility_icon {
+        right: 30px;
+        height: 24px;
+        width: 24px;
+        top: 19px;
+    }
+    ul {
+        right: 120px;
+    }
+}
+
 @media only screen and (max-width: 380px) {
     .welcome_msg {
         font-size: 16px;
-    } 
+    }
+    ul {
+        right: 105px;
+    }
 }
 
 
 @media only screen and (max-width: 360px) {
     .welcome_message {
         top: 100%;
+    }
+    ul {
+        right: 93px;
     }
 }  
 
