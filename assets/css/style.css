@@ -214,6 +214,14 @@ p > span {
     font-style: italic;
 }
 
+#msg_container > a {
+    text-decoration: none;
+}
+
+#about_section, #contact_section {
+    margin: 0 15%;
+}
+
 #testimonial_section > div {
     justify-content: center;
 }
@@ -334,6 +342,9 @@ div > img {
     }
     address {
         margin: 50px 20px 0 20px;
+    }
+    #about_section, #contact_section {
+        margin: 0;
     }
 }
 @media only screen and (max-width: 1128px) {
