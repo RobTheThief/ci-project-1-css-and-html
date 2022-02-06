@@ -171,11 +171,30 @@ footer {
    
 }
 
-.about {
+.section_main_content {
     margin: 50px 0 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.banner_left {
+    -webkit-mask-image: -webkit-linear-gradient(
+      right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+    width: 35%;
+    min-height: 120px;
+    max-height: 210px;
+    min-width: 300px;
+    margin: 50px 40px 0 20px;
+}
+
+.banner_center {
+    padding: 25px;
+    width: 400px;
+    display: inline-block;
 }
 
 p > span {
@@ -183,7 +202,7 @@ p > span {
     font-style: italic;
 }
 
-section > .testimonial {
+#about_section > div > .testimonial {
     text-align: justify;
     width: 50%;
     padding-top: 20px;
@@ -276,16 +295,6 @@ section > .testimonial {
     width: 100%;
     z-index: 100;
 }
-
-#testimonials {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
   
 h1 > a {
     display: inline-block;
@@ -295,24 +304,8 @@ h1 > a {
     font-size: 25px;
 }
 
-#banner_left {
-    -webkit-mask-image: -webkit-linear-gradient(
-      right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
-    width: 35%;
-    min-height: 120px;
-    max-height: 210px;
-    min-width: 300px;
-    margin: 50px 40px 0 20px;
-}
-
-#banner_center {
-    padding: 25px;
-    height: 280px;
-    width: 300px;
-    display: inline-block;
+img[src="assets/images/contactimage.jpg"] {
+    width: 550px;
 }
 
 div > img {
@@ -320,11 +313,11 @@ div > img {
 }
 
 @media only screen and (max-width: 1296px) {
-    .about {
+    .section_main_content {
         flex-direction: column;
     }
-    section > .testimonial {
-        width: 70%;
+    #about_section > div > .testimonial {
+        width: 80%;
     }
 }
 @media only screen and (max-width: 1128px) {
@@ -340,10 +333,7 @@ div > img {
 }
 
 @media only screen and (max-width: 890px) {
-    #testimonials {
-        display: inline-block;
-    }
-    #banner_center {
+    .banner_center {
         padding: 4em 0 4em 0;
         height: 280px;
         width: 300px;
