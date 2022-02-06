@@ -88,13 +88,21 @@ li > a:hover {
     color: rgb(105, 103, 103);
 }
 
-a {
+li > a, nav > a, h1 > a, #message_container > a {
     color: black;
     text-decoration: none;
 }
 
 button {
     float: right;
+}
+
+address {
+    font-size: 20px;
+    font-weight: 900;
+    width: 80%;
+    margin: 50px 20px 0 0;
+    text-align: justify;
 }
 
 footer {
@@ -111,6 +119,10 @@ footer {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     );
+}
+
+.address_wrapper {
+    text-align: center;
 }
 
 .testimonial_pair {
@@ -175,7 +187,7 @@ footer {
     margin: 50px 0 50px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .banner_left {
@@ -188,7 +200,7 @@ footer {
     min-height: 120px;
     max-height: 210px;
     min-width: 300px;
-    margin: 50px 40px 0 20px;
+    margin: 50px 40px 0 62.5px;
 }
 
 .banner_center {
@@ -202,11 +214,16 @@ p > span {
     font-style: italic;
 }
 
+#testimonial_section > div {
+    justify-content: center;
+}
+
 #about_section > div > .testimonial {
     text-align: justify;
-    width: 50%;
-    padding-top: 20px;
-    margin: 50px 20px 0 0;
+    padding: 20px 10px 0 10px; 
+    margin: 50px 62.5px 0 0;
+    width: 80%;
+    max-width: 642px;
 }
 
 #accessibility_icon {
@@ -304,10 +321,6 @@ h1 > a {
     font-size: 25px;
 }
 
-img[src="assets/images/contactimage.jpg"] {
-    width: 550px;
-}
-
 div > img {
     width: 100%;
 }
@@ -317,7 +330,10 @@ div > img {
         flex-direction: column;
     }
     #about_section > div > .testimonial {
-        width: 80%;
+         margin: 50px 20px 0 20px;
+    }
+    address {
+        margin: 50px 20px 0 20px;
     }
 }
 @media only screen and (max-width: 1128px) {
@@ -390,6 +406,9 @@ div > img {
     }
     ul {
         right: 120px;
+    }
+    address {
+        font-size: 15px;
     }
 }
 
