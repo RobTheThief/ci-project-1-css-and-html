@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto:wght@300&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Roboto:wght@300&display=swap');
 
 body, html {
     height: 100%;
@@ -8,7 +9,7 @@ body, html {
 }
 
 body {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "karla", sans-serif;
     margin: 0;
 }
 
@@ -24,16 +25,6 @@ h2{
     margin-top: -150px;
 }
 
-h3 {
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    display: inline;
-    font-size: 25px;
-    font-weight: 900;
-    color: #9338ff;
-}
-
 header {
     width: 100%;
     text-align: center;
@@ -41,7 +32,7 @@ header {
 
 nav {
     font-size: 25px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "karla", sans-serif;
     width: 100%;
     height: 30px;
     padding: 16px;
@@ -50,7 +41,7 @@ nav {
     border-radius:  0 0 5px 0;
     margin-bottom: 0;
     margin-top: 0;
-    background-color: #acaeca;
+    background-color: #4b61a6;
 }
 
 nav > ul {
@@ -60,17 +51,17 @@ nav > ul {
     float: right;
     position: relative;
     right: 130px;
-    bottom: 5px;
+    bottom: 2.5px;
 }
 
 nav > ul > li {
     list-style: none;
     display: inline-block;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 17px;
+    font-family: "karla", sans-serif;
+    font-size: 20px;
     font-weight: 900;
     border: solid rgb(0, 0, 0);
-    border-width: 0 0 2px 0;
+    border-width: 0 0 3px 0;
     border-radius: 10%;
     transition: 0.3s ease-out;
     color: rgb(0, 0, 0);
@@ -91,10 +82,6 @@ li > a:hover {
 li > a, nav > a, h1 > a, #message_container > a {
     color: black;
     text-decoration: none;
-}
-
-button {
-    float: right;
 }
 
 address {
@@ -126,7 +113,7 @@ footer > ul > li {
     text-align: center;
     height: 100%;
     width: 100%;
-    background: no-repeat center center url("../images/canvas.jpg");
+    background: no-repeat center center url("../images/canvasblu.jpg");
     background-size: cover;
     -webkit-mask-image: -webkit-linear-gradient(
       top,
@@ -156,7 +143,7 @@ footer > ul > li {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "karla", sans-serif;
     font-size: 40px;
     height: 50px;
     width: 45%;
@@ -192,7 +179,8 @@ footer > ul > li {
     bottom: 23%;
     vertical-align: middle;
     float: left;
-    width: 80px;
+    width: 65px;
+    height: 44px;
    
 }
 
@@ -321,19 +309,21 @@ p > span {
     }
 }
 
-#language_button {
+button {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     opacity: 1;
-    height: 24px;
+    height: 23px;
     width: 35px;
     border: solid black 1px;
+    border-radius: 2px;
+    float: right;
     position: absolute;
     right: 30px;
     bottom: 37%;
 }
 
-#language_button:hover {
+button:hover {
     opacity: 0.5;
 }
 
@@ -427,7 +417,7 @@ div > img {
         bottom: 5%;
         width: 60px;
     }
-    #language_button {
+    button {
         right: 8px;
         height: 21px;
         width: 30px;
@@ -465,6 +455,9 @@ div > img {
     }
     ul {
         right: 93px;
+    }
+    nav > ul > li {
+        font-size: 17.5px;
     }
 }  
 
