@@ -22,7 +22,6 @@ h1 {
 h2{
     text-align: center;
     margin-bottom: 10px;
-    text-decoration: underline;
 }
 
 header {
@@ -195,16 +194,10 @@ footer > ul > li {
 }
 
 .banner_left {
-    -webkit-mask-image: -webkit-linear-gradient(
-      right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
     height: 180px;
     width: 400px;
-    margin: 0 40px 0 0;
     position: relative;
-    top: 20px;
+    top: 30px;
 }
 
 .banner_center {
@@ -246,7 +239,9 @@ p > span {
     text-align: justify;
     margin: 50px 0 0 0;
     width: 571px; min-width: 571px;
-    height: 236px; min-height: 236px;
+    height: 220px;
+    border-left: black solid 3px;
+    padding: 0 0 0 20px;
 }
 
 #accessibility_icon {
@@ -368,11 +363,6 @@ div > img {
         padding: 62px;
     }
     .banner_left {
-        -webkit-mask-image: -webkit-linear-gradient(
-      right,
-      rgb(0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
         width: 617px;
         height: 115px;
         top: -170px;
