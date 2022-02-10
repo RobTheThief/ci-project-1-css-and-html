@@ -1,6 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Roboto:wght@300&display=swap"); */
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Roboto:wght@300&display=swap');
- */
  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Raleway&family=Roboto:wght@300&display=swap');
 body, html {
     height: 100%;
@@ -15,146 +12,37 @@ body {
     margin: 0;
 }
 
-h1 {
-    margin: 0;
-}
 
 h2{
     text-align: center;
     margin-bottom: 10px;
 }
 
-header {
-    width: 100%;
-    text-align: center;
-}  
 
-nav {
-    font-size: 25px;
-    font-family: raleway, sans-serif;
-    width: 100%;
-    height: 30px;
-    padding: 16px 0 16px 0;
-    border: solid black;
-    border-width: 0 0 0 0;
-    border-radius:  0 0 5px 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    background-color: #4b61a6;
+.section_main_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav > ul {
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    float: right;
+.banner_left {
+    height: 180px;
+    width: 400px;
     position: relative;
-    right: 130px;
-    bottom: 2.5px;
+    top: 30px;
 }
 
-nav > ul > li {
-    list-style: none;
-    display: inline-block;
-    font-family: raleway, sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    border: solid white;
-    border-width: 0 0 3px 0;
-    border-radius: 10%;
-    transition: 0.3s ease-out;
-    color: white;
+.icon_attributes {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
 }
 
-li:hover {
-   border-color: rgb(105, 103, 103);
+#about_section, #contact_section {
+    padding: 7% 17%;
+    margin-top: -100px;
 }
-
-li > a {
-    color: black;
-}
-
-li > a:hover {
-    color: rgb(105, 103, 103);
-}
-
-li > a, nav > a, h1 > a, #message_container > a {
-    color: white;;
-    text-decoration: none;
-}
-
-address {
-    font-size: 20px;
-    font-weight: 900;
-    width: 80%;
-    margin: 50px 20px 0 0;
-    text-align: justify;
-}
-
-fieldset {
-    width: 490px;
-}
-
-form {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-footer {
-    height: 100%;
-}
-
-footer > ul {
-    height: 99%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 0;
-}
-
-footer > ul > li {
-    margin: 0 10% 0 10%;
-    list-style: none;
-}
-
-.about_section {
-    background-color: #3773eb;
-    margin: 0;
-}
-
-.footer_section {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    background: no-repeat center center url("../images/canvasblu.jpg");
-    background-size: cover;
-    -webkit-mask-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0),
-      rgb(0, 0, 0)
-    );
-}
-
-.address_wrapper {
-    text-align: center;
-    width: 70%;
-}
-
-.testimonial_pair {
-    text-align: left;
-}
-
-.testimonial {
-    font-size: 20px;
-    font-weight: 900;
-    padding: 0 0 20px 0;
-    margin: 30px 10px 30px 10px;
-    text-align: center;
-}
-
+/*WELCOME MESSAGE AND HERO IMAGE****************/
 .welcome_msg {
     display: flex;
     align-items: center;
@@ -189,86 +77,8 @@ footer > ul > li {
     }
 }
 
-.logo {
-    margin: auto 16px;
-    position: relative;
-    bottom: 23%;
-    vertical-align: middle;
-    float: left;
-    width: 65px;
-    height: 44px;
-   
-}
-
-.section_main_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner_left {
-    height: 180px;
-    width: 400px;
-    position: relative;
-    top: 30px;
-}
-
-.banner_center {
-    padding: 25px;
-    width: 400px;
-    display: inline-block;
-    border-radius: 50%;
-}
-
-.icon_attributes {
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-}
-
-#contact_section > .section_main_content > .banner_left {
-    top: 0;
-    width: 477.267px;
-    height: 35%;
-}
-
-p > span {
-    font-size: 25px;
-}
-
-.commenter {
-    font-size: 15px;
-    font-style: italic;
-}
-
 #msg_container > a {
     text-decoration: none;
-}
-
-#about_section, #contact_section {
-    padding: 7% 17%;
-    margin-top: -100px;
-}
-
-#testimonial_section > div {
-    justify-content: center;
-}
-
-#about_section > div > .testimonial {
-    text-align: justify;
-    margin: 50px 0 0 0;
-    width: 571px; min-width: 571px;
-    height: 220px;
-    border-left: black solid 3px;
-    padding: 0 0 0 20px;
-}
-
-#accessibility_icon {
-    width: 29px;
-    height: 29px;
-    position: absolute;
-    right: 60px;
-    margin: 0 11px 7px 0;
 }
 
 #msg_container {
@@ -326,6 +136,86 @@ p > span {
         color: #3773eb00;
     }
 }
+/***********************************/
+
+/*NAV BAR AND HEADER****************/
+h1 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    font-size: 25px;
+    font-family: raleway, sans-serif;
+    width: 100%;
+    height: 30px;
+    padding: 16px 0 16px 0;
+    border: solid black;
+    border-width: 0 0 0 0;
+    border-radius:  0 0 5px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #4b61a6;
+}
+
+nav > ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 130px;
+    bottom: 2.5px;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    font-family: raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    border: solid white;
+    border-width: 0 0 3px 0;
+    border-radius: 10%;
+    transition: 0.3s ease-out;
+    color: white;
+}
+
+li:hover {
+   border-color: rgb(105, 103, 103);
+}
+
+li > a {
+    color: black;
+}
+
+li > a:hover {
+    color: rgb(105, 103, 103);
+}
+
+li > a, nav > a, h1 > a, #message_container > a {
+    color: white;;
+    text-decoration: none;
+}
+
+#header_and_nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+h1 > a {
+    display: inline-block;
+    float: left;
+    margin: auto 20px auto 50px;
+    vertical-align: middle;
+    font-size: 25px;
+}
 
 button {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
@@ -345,24 +235,123 @@ button:hover {
     opacity: 0.5;
 }
 
-#header_and_nav {
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    z-index: 100;
-}
-  
-h1 > a {
-    display: inline-block;
-    float: left;
-    margin: auto 20px auto 50px;
+.logo {
+    margin: auto 16px;
+    position: relative;
+    bottom: 23%;
     vertical-align: middle;
+    float: left;
+    width: 65px;
+    height: 44px;
+   
+}
+
+#accessibility_icon {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    right: 60px;
+    margin: 0 11px 7px 0;
+}
+/****************************/
+
+/***TESTIMONIALS*************/
+
+.testimonial_pair {
+    text-align: left;
+}
+
+.testimonial {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0 0 20px 0;
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+}
+
+.banner_center {
+    padding: 25px;
+    width: 400px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+p > span {
     font-size: 25px;
 }
 
-div > img {
+.commenter {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#testimonial_section > div {
+    justify-content: center;
+}
+/***ABOUT SECTION************/
+.about_section {
+    background-color: #3773eb;
+    margin: 0;
+}
+
+#about_section > div > .testimonial {
+    text-align: justify;
+    margin: 50px 0 0 0;
+    width: 571px; min-width: 571px;
+    height: 220px;
+    border-left: black solid 3px;
+    padding: 0 0 0 20px;
+}
+/***CONTACT SECTION**********/
+fieldset {
+    width: 490px;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
+
+#contact_section > .section_main_content > .banner_left {
+    top: 0;
+    width: 477.267px;
+    height: 35%;
+}
+/****************************/
+/*****FOOTER*****************/
+footer {
+    height: 100%;
+}
+
+footer > ul {
+    height: 99%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+}
+
+footer > ul > li {
+    margin: 0 10% 0 10%;
+    list-style: none;
+}
+
+.footer_section {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: no-repeat center center url("../images/canvasblu.jpg");
+    background-size: cover;
+    -webkit-mask-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgb(0, 0, 0)
+    );
+}
+/****************************/
 
 @media only screen and (max-width: 1128px) {
     h1 {
