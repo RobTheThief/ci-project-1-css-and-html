@@ -1,4 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Raleway&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Raleway&family=Roboto:wght@300&display=swap');
+
 body, html {
     height: 100%;
     width: 100%;
@@ -17,7 +18,6 @@ h2{
     text-align: center;
     margin-bottom: 10px;
 }
-
 
 .section_main_content {
     display: flex;
@@ -136,8 +136,6 @@ h2{
         color: #3773eb00;
     }
 }
-/***********************************/
-
 /*NAV BAR AND HEADER****************/
 h1 {
     margin: 0;
@@ -253,10 +251,8 @@ button:hover {
     right: 60px;
     margin: 0 11px 7px 0;
 }
-/****************************/
 
 /***TESTIMONIALS*************/
-
 .testimonial_pair {
     text-align: left;
 }
@@ -288,6 +284,7 @@ p > span {
 #testimonial_section > div {
     justify-content: center;
 }
+
 /***ABOUT SECTION************/
 .about_section {
     background-color: #3773eb;
@@ -302,11 +299,8 @@ p > span {
     border-left: black solid 3px;
     padding: 0 0 0 20px;
 }
-/***CONTACT SECTION**********/
-fieldset {
-    width: 490px;
-}
 
+/***CONTACT SECTION**********/
 form {
     display: flex;
     align-items: flex-start;
@@ -315,12 +309,17 @@ form {
     width: 100%;
 }
 
+fieldset {
+    width: 490px;
+    margin-top: 20px;
+}
+
 #contact_section > .section_main_content > .banner_left {
     top: 0;
     width: 477.267px;
     height: 35%;
 }
-/****************************/
+
 /*****FOOTER*****************/
 footer {
     height: 100%;
@@ -351,7 +350,6 @@ footer > ul > li {
       rgb(0, 0, 0)
     );
 }
-/****************************/
 
 @media only screen and (max-width: 1128px) {
     h1 {
@@ -369,12 +367,9 @@ footer > ul > li {
          position: relative;
          top: -140px;
     }
-    address {
-        margin: 50px 20px 0 20px;
-    }
     #about_section, #contact_section {
         margin: 0;
-        padding: 62px;
+        padding: 62px 16px 62px 16px;
     }
     .banner_left {
         width: 617px;
@@ -383,12 +378,18 @@ footer > ul > li {
     }
     #contact_section > .section_main_content > .banner_left {
         top: 0;
-        height: none;
-        width: none;
+        width: 90%;
+    }
+    fieldset {
+        width: 85%;
+        margin-left: 20px;
+    }
+    .contact_form_wrapper {
+        width: 85%;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 986px) {
-    
     .welcome_msg {
         font-size: 25px;
     }
@@ -453,9 +454,6 @@ footer > ul > li {
     ul {
         right: 120px;
     }
-    address {
-        font-size: 15px;
-    }
     nav > ul {
         right: 90px;
     }
@@ -484,14 +482,12 @@ footer > ul > li {
 }  
 
 @media (max-height: 810px) and (orientation: landscape){
-    
     .down_arrow {
         top: 55%;
     }    
 }
 
 @media (max-height: 706px) and (orientation: landscape){
-    
     .down_arrow {
         top: 40%;
     }    
