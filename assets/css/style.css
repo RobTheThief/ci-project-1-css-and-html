@@ -153,7 +153,7 @@ nav {
     border-radius:  0 0 5px 0;
     margin-bottom: 0;
     margin-top: 0;
-    background-color: #4b61a6;
+    background-color: #4f71e9;
 }
 
 nav > ul {
@@ -287,7 +287,7 @@ p > span {
 
 /***ABOUT SECTION************/
 .about_section {
-    background-color: #567aea;
+    background-color: #4e73ea;
 }
 
 #about_section > div > .testimonial {
@@ -331,6 +331,8 @@ fieldset {
     height: 100%;
     background: no-repeat center center url("../images/canvasblugradient.png");
     background-size: cover;
+    border: #4e73ea solid;
+    border-width: 10px 0 0 0;
 }
 
 #contact_section > .section_main_content > .banner_left {
@@ -362,7 +364,9 @@ footer > ul > li {
 .footer_section {
     text-align: center;
     width: 100%;
-    background-color: #758bd8;
+    background-color: #4f71e9;
+    border: black solid;
+    border-width: 3px 0 0 0;
 }
 
 @media only screen and (max-width: 1128px) {
