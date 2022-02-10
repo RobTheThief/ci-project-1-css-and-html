@@ -38,10 +38,6 @@ h2{
     visibility: hidden;
 }
 
-#about_section, #contact_section {
-    padding: 7% 17%;
-    margin-top: -100px;
-}
 /*WELCOME MESSAGE AND HERO IMAGE****************/
 .welcome_msg {
     display: flex;
@@ -253,6 +249,10 @@ button:hover {
 }
 
 /***TESTIMONIALS*************/
+.testimonial_section {
+    margin-top: 100px;
+}
+
 .testimonial_pair {
     text-align: left;
 }
@@ -287,8 +287,7 @@ p > span {
 
 /***ABOUT SECTION************/
 .about_section {
-    background-color: #3773eb;
-    margin: 0;
+    background-color: #567aea;
 }
 
 #about_section > div > .testimonial {
@@ -300,6 +299,11 @@ p > span {
     padding: 0 0 0 20px;
 }
 
+#about_section, #contact_section {
+    padding: 7% 17% 17% 17%;
+    margin-top: -100px;
+}
+
 /***CONTACT SECTION**********/
 form {
     display: flex;
@@ -309,15 +313,31 @@ form {
     width: 100%;
 }
 
+legend, label {
+    color: white;
+}
+
 fieldset {
     width: 490px;
+    height: 300px;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.contact_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: no-repeat center center url("../images/canvasblugradient.png");
+    background-size: cover;
 }
 
 #contact_section > .section_main_content > .banner_left {
     top: 0;
     width: 477.267px;
     height: 35%;
+    display: none;
 }
 
 /*****FOOTER*****************/
@@ -331,6 +351,7 @@ footer > ul {
     align-items: flex-end;
     justify-content: center;
     padding: 0;
+    margin: 0;
 }
 
 footer > ul > li {
@@ -340,15 +361,8 @@ footer > ul > li {
 
 .footer_section {
     text-align: center;
-    height: 100%;
     width: 100%;
-    background: no-repeat center center url("../images/canvasblu.jpg");
-    background-size: cover;
-    -webkit-mask-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0),
-      rgb(0, 0, 0)
-    );
+    background-color: #758bd8;
 }
 
 @media only screen and (max-width: 1128px) {
@@ -360,9 +374,10 @@ footer > ul > li {
 @media only screen and (max-width: 1046px) {
     .section_main_content {
         flex-direction: column;
+        margin: 0 20px 0 20px;
     }
     #about_section > div > .testimonial {
-         width: 100%; min-width: 0;
+         width: 80%; min-width: 0;
          height: 100%; min-height: 0;
          position: relative;
          top: -140px;
@@ -383,10 +398,6 @@ footer > ul > li {
     fieldset {
         width: 85%;
         margin-left: 20px;
-    }
-    .contact_form_wrapper {
-        width: 85%;
-        text-align: center;
     }
 }
 @media only screen and (max-width: 986px) {
@@ -428,6 +439,9 @@ footer > ul > li {
     }
     .down_arrow {
         display: none;
+    }
+    #about_section > div > .testimonial {
+        width: 90%;
     }
 }
 
