@@ -73,12 +73,25 @@
             <div class="section_main_content">
                 <img src="assets/images/contactimage.jpg" alt="Two happy people talking online" class="banner_left">
                 <div class="address_wrapper">
-                    <address>
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <form  action="" method="POST">
+                            <label for="email_field" >Email </label>
+                            <input id="email_field" name="email_field" type="email" required >
+                            
+                            <label for="message_field">Message </label>
+                            <textarea id="message_field" name="message_field" type="text" rows="3" cols="30" required >
+                            </textarea>
+                           
+                            <input value="Submit" type="submit" >
+                        </form>
+                    </fieldset>
+                    <!-- <address>
                         EMAIL: <a href="mailto:ATS.InterpretingMentors@gmail.com" aria-label="Email us (opens in email client)">ATS.InterpretingMentors@gmail.com</a>.<br>
                         YouTube: <a href="https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw" target="_blank" aria-label="Go to our youtube channel (opens in new tab)">An Tobair Segais</a><br>
                         LinkedIn:<br>
                         Twitter:<br>
-                    </address> 
+                    </address>  -->
                 </div>
             </div>
         </section>
