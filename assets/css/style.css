@@ -144,7 +144,7 @@ header {
 }
 
 nav {
-    font-size: 25px;
+    font-size: 20px;
     font-family: raleway, sans-serif;
     width: 100%;
     height: 30px;
@@ -164,14 +164,12 @@ nav > ul {
     float: right;
     position: relative;
     right: 130px;
-    bottom: 2.5px;
 }
 
 nav > ul > li {
     list-style: none;
     display: inline-block;
     font-family: raleway, sans-serif;
-    font-size: 20px;
     font-weight: 900;
     border: solid white;
     border-width: 0 0 3px 0;
@@ -223,7 +221,7 @@ button {
     float: right;
     position: absolute;
     right: 30px;
-    bottom: 32.5%;
+    top: 19.5px;
 }
 
 button:hover {
@@ -468,13 +466,17 @@ footer > ul > li {
         right: 30px;
         height: 24px;
         width: 24px;
-        top: 19px;
+        top: 18px;
+    }
+    nav {
+        font-size: 20px;
     }
     ul {
         right: 120px;
     }
     nav > ul {
         right: 90px;
+        bottom: 2.5px;
     }
 }
 
@@ -495,8 +497,12 @@ footer > ul > li {
     ul {
         right: 93px;
     }
-    nav > ul > li {
-        font-size: 17.5px;
+    nav > ul {
+        right: 72px;
+    }
+    .logo {
+        width: 50px;
+        height: 38px;
     }
 }  
 
