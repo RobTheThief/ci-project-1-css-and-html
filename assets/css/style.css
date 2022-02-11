@@ -287,6 +287,8 @@ p > span {
 /***ABOUT SECTION************/
 .about_section {
     background-color: #4e73ea;
+    margin-top: -7%;
+    padding: 12% 17% 17% 17%;
 }
 
 #about_section > div > .testimonial {
@@ -296,11 +298,6 @@ p > span {
     height: 220px;
     border-left: black solid 3px;
     padding: 0 0 0 20px;
-}
-
-#about_section, #contact_section {
-    padding: 7% 17% 17% 17%;
-    margin-top: -100px;
 }
 
 /***CONTACT SECTION**********/
@@ -328,6 +325,8 @@ fieldset {
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin-top: -100px;
+    padding: 7% 17% 17% 17%;
     background: no-repeat center center url("../images/canvasblugradient.png");
     background-size: cover;
     border: #4e73ea solid;
