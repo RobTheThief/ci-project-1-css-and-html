@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Karla&family=Raleway&family=Roboto:wght@300&display=swap');
 
-body, html {
+html {
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: white;
 }
 
 body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
     font-family: raleway, sans-serif;
     margin: 0;
 }
@@ -171,10 +173,6 @@ button {
     right: 30px;
     top: 19.25px;
 }
-
-/* button:hover {
-    opacity: 0.5;
-} */
 
 .header_and_nav {
     position: sticky;
