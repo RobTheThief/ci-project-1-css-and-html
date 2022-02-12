@@ -235,7 +235,7 @@ button:hover {
    
 }
 
-#accessibility_icon {
+.language_button {
     width: 29px;
     height: 29px;
     position: absolute;
@@ -276,7 +276,7 @@ p > span {
     font-style: italic;
 }
 
-#testimonial_section > div {
+.testimonial_section > div {
     justify-content: center;
 }
 
@@ -295,7 +295,7 @@ p > span {
     top: 10px;
 }
 
-#about_section > div > .testimonial {
+.about_section > div > .testimonial {
     text-align: justify;
     margin: 50px 0 0 0;
     width: 571px; min-width: 571px;
