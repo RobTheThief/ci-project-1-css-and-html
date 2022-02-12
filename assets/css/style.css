@@ -311,13 +311,39 @@ form {
 
 legend, label {
     color: white;
+    font-size: 25px; 
 }
 
 fieldset {
     width: 490px;
-    height: 300px;
-    margin-top: 20px;
+    height: 310px;
     background-color: rgba(0, 0, 0, 0.473);
+}
+
+textarea {
+    height: 130px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    background-color: rgba(2, 2, 2, 0.514);
+}
+
+.button_submit {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3773eb;
+    transition: all 0.5s;
+}
+
+.button_submit:hover {
+    background-color: #808ba1;
+}
+
+.text_input {
+    width: 96.5%;
 }
 
 .contact_section {
@@ -333,13 +359,9 @@ fieldset {
     border-width: 10px 0 0 0;
 }
 
-#contact_section > .section_main_content > .banner_left {
-    top: 0;
-    width: 477.267px;
-    height: 35%;
-    display: none;
+input[type="email"] {
+    height: 25px;
 }
-
 /*****FOOTER*****************/
 footer {
     height: 100%;
@@ -357,6 +379,12 @@ footer > ul {
 footer > ul > li {
     margin: 0 10% 0 10%;
     list-style: none;
+}
+
+footer > ul > li:hover {
+    position: relative;
+    bottom: 3px;
+    left: 3px;
 }
 
 .footer_section {
@@ -399,7 +427,6 @@ footer > ul > li {
     }
     fieldset {
         width: 85%;
-        margin-left: 20px;
     }
 }
 @media only screen and (max-width: 986px) {
