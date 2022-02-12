@@ -411,11 +411,11 @@ footer > ul > li:hover {
 }
 
 .tooltip {
-    position: relative;
+    position: absolute;
     visibility: hidden;
     font-size: 12px;
-    bottom: 2rem;
-    right: 1rem;
+    bottom: 3rem;
+    right: -3rem;
     padding: 3px;
     border: white solid 2px;
     border-radius: 10px;
