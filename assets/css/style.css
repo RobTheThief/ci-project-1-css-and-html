@@ -396,6 +396,17 @@ footer > ul > li:hover {
     border-width: 3px 0 0 0;
 }
 
+.tooltip {
+    position: relative;
+    visibility: hidden;
+    bottom: 5rem;
+    right: 2rem;
+}
+
+footer > ul > li:hover .tooltip {
+    visibility: visible;
+}
+
 @media only screen and (max-width: 1128px) {
     h1 {
         display: none;
