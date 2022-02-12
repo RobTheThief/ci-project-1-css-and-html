@@ -182,11 +182,11 @@ li:hover {
    border-color: rgb(105, 103, 103);
 }
 
-li > a {
-    color: black;
+nav > ul > li > a {
+   /*  color: black; */
 }
 
-li > a:hover {
+nav > ul > li > a:hover {
     color: rgb(105, 103, 103);
 }
 
@@ -382,6 +382,12 @@ footer > ul > li {
     list-style: none;
 }
 
+footer > ul > li > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer > ul > li:hover {
     position: relative;
     bottom: 3px;
@@ -399,8 +405,13 @@ footer > ul > li:hover {
 .tooltip {
     position: relative;
     visibility: hidden;
-    bottom: 5rem;
-    right: 2rem;
+    font-size: 12px;
+    bottom: 2rem;
+    right: 1rem;
+    padding: 3px;
+    border: white solid 2px;
+    border-radius: 10px;
+    background-color: #3773eb;
 }
 
 footer > ul > li:hover .tooltip {
