@@ -217,7 +217,7 @@ button {
     float: right;
     position: absolute;
     right: 30px;
-    top: 19.5px;
+    top: 19.25px;
 }
 
 button:hover {
@@ -235,7 +235,7 @@ button:hover {
    
 }
 
-.language_button {
+.accessibility_icon {
     width: 29px;
     height: 29px;
     position: absolute;
@@ -516,7 +516,7 @@ footer > ul > li:hover .tooltip {
     }
     .logo {
         left: -10px;
-        bottom: 5%;
+        bottom: 18.5%;
         width: 60px;
     }
     button {
@@ -565,6 +565,7 @@ footer > ul > li:hover .tooltip {
     .logo {
         width: 50px;
         height: 38px;
+        bottom: 10%;
     }
 }  
 
