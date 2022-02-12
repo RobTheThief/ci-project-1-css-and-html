@@ -1,4 +1,7 @@
+/* SITE LANGUAGE */
 let html = document.getElementById("html");
+
+/* TEXT */
 let home = document.getElementById("home");
 let about = document.getElementById("about");
 let contact = document.getElementById("contact");
@@ -13,9 +16,13 @@ let testimonial_3 = document.getElementById("testimonial_3");
 let testimonial_4 = document.getElementById("testimonial_4");
 let contact_section_heading = document.getElementById("contact_section_heading");
 
+/* ARIA LABELS */
+let contact_section_heading = document.getElementById("contact_section_heading");
 
+/* BUTTON */
 let language_button = document.getElementById("language_button");
 
+/* ENGLISH SITE VERSION */
 const siteTextEnglish = {
     home: 'Home',
     about: 'About',
@@ -34,6 +41,7 @@ const siteTextEnglish = {
     contact_section_heading: 'CONTACT',
 }
 
+/* PORTUGUESE SITE VERSION */
 const siteTextPortuguese = {
     home: 'Início',
     about: 'Sobre',
@@ -52,6 +60,7 @@ const siteTextPortuguese = {
     contact_section_heading: 'CONTATO',
 }
 
+/* TOGGLE SITE LANGUAGE */
 const setLanguage = () => {
     if (html.getAttribute('lang') == "en"){
         html.setAttribute('lang', 'pt');
