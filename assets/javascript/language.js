@@ -1,6 +1,5 @@
 /* SITE LANGUAGE */
 let html = document.getElementById("html");
-
 /* TEXT */
 let home = document.getElementById("home");
 let about = document.getElementById("about");
@@ -18,6 +17,7 @@ let contact_form_legend = document.getElementById("contact_form_legend");
 let title = document.getElementById("title");
 let message_label = document.querySelectorAll('[for="message_field"]'); 
 let submit_button_text = document.querySelectorAll('[class="button_submit"]');
+let language_button_tooltip_aria = document.querySelectorAll('[class="tooltip langtip"]'); 
 /* ARIA LABELS */
 let msg_container = document.getElementById("msg_container");
 let landing_image_link_aria = document.getElementsByClassName("welcome_msg")
@@ -28,14 +28,21 @@ let nav_home_anchor_aria = document.querySelectorAll('[id="home"]');
 let nav_about_anchor_aria = document.querySelectorAll('[id="about"]'); 
 let nav_contact_anchor_aria = document.querySelectorAll('[id="contact"]'); 
 let language_button_aria = document.querySelectorAll('[id="language_button"]'); 
-let language_button_tooltip_aria = document.querySelectorAll('[class="tooltip langtip"]');
+let icon_attributes_aria = document.querySelectorAll('[class="icon_attributes"]'); 
+let shutterstock_attribute_aria = document.querySelectorAll('[href="https://wwww.shutterstock.com"]');
+let youtube_anchor_aria = document.querySelectorAll('[href="https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw"]');
+let tooltip_aria = document.querySelectorAll('[class="tooltip"]');
+let twitter_anchor_aria = document.querySelectorAll('[href="https://twitter.com/"]');
+let linkedin_anchor_aria = document.querySelectorAll('[href="https://www.linkedin.com/"]');
 /* IMAGE ALTS */
 let chevron_alt = document.getElementById('chevron_icon'); 
 let accessibility_icon_alt = document.querySelectorAll('[alt="accessibility icon"]'); 
 let therapy_woman_alt = document.querySelectorAll('[alt="Woman getting therapy online"]');
 let half_banner_alt = document.querySelectorAll('[srcset="assets/images/bannerleft.png"]');
-let full_banner_alt = document.querySelectorAll('[src="assets/images/fullbanner.png"]');
-
+let full_banner_alt = document.querySelectorAll('[src="assets/images/fullbanner.png"]'); 
+let youtube_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/youtube-squared.png"]'); 
+let twitter_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/twitter.png"]');
+let linkedin_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/linkedin.png"]');
 /* PLACEHOLDERS */ 
 let email_placeholder = document.querySelectorAll('[id="email_field"]'); 
 let message_placeholder = document.querySelectorAll('[id="message_field"]');
@@ -58,7 +65,6 @@ const siteTextEnglish = {
     about_ats: 'An Tobar Segais Interpreting Mentors project started from the desire and ambition to bring educational mental health content to Portuguese speakers and share with English speakers a compilation of the most qualified mentors out there.<br>The main areas covered here are related to self-improvement based on psychology, neuroscience, stoicism, western and eastern philosophy.<br>Thank you for checking in. And, Keep improving',
     contact_form_legend: 'Contact',
     title: 'An Tobair Segais - Interpreting Mentors',
-
 }
 
 /* PORTUGUESE SITE VERSION */
@@ -111,8 +117,7 @@ const setLanguage = () => {
         nav_about_anchor_aria[0].setAttribute('aria-label', 'Vai pra a aba Sobre da página');
         nav_contact_anchor_aria[0].setAttribute('aria-label', 'Vai pra a aba contato da página'); 
         accessibility_icon_alt[0].setAttribute('alt', 'ícone de acessibilidade'); 
-        language_button_aria[0].setAttribute('aria-label', 'Botão pra mudar o idioma entre português e inglês'); 
-        language_button_tooltip_aria[0].setAttribute('aria-label', 'Idioma');
+        language_button_aria[0].setAttribute('aria-label', 'Botão pra mudar o idioma entre português e inglês');
         language_button_tooltip_aria[0].innerHTML = 'Idioma';
         therapy_woman_alt[0].setAttribute('alt', 'Mulher fazendo terapia online'); 
         half_banner_alt[0].setAttribute('alt', 'Imagem em linha reta de quatro balões de diálogo com uma cabeça de mulher dentro de cada um deles');
@@ -121,6 +126,15 @@ const setLanguage = () => {
         message_label[0].innerHTML = 'Mensagem'; 
         message_placeholder[0].setAttribute('placeholder', 'Por favor digite sua mensagem aqui'); 
         submit_button_text[0].setAttribute('value', 'Enviar');
+        icon_attributes_aria.forEach((ele) => ele.setAttribute('aria-label', 'Vai para o website do icon8 (abre uma nova janela)'));
+        shutterstock_attribute_aria[0].setAttribute('aria-label', 'Vai para o website do shutterstock (abre uma nova janela)'); 
+        youtube_anchor_aria[0].setAttribute('aria-label', 'Vai para o canal do Youtube (abre uma nova janela)'); 
+        youtube_icon_alt[0].setAttribute('alt', 'ícone youtube'); 
+        tooltip_aria.forEach((ele) => ele.setAttribute('aria-label', 'Balão de descriçao do ícone')); 
+        twitter_anchor_aria[0].setAttribute('aria-label', 'Vai para a página do twitter (abre uma nova janela)');
+        twitter_icon_alt[0].setAttribute('alt', 'ícone twitter');
+        linkedin_anchor_aria[0].setAttribute('aria-label', 'Vai para a página do linkedin (abre uma nova janela)');
+        linkedin_icon_alt[0].setAttribute('aria-label', 'ícone linkedin');
     } else {
         html.setAttribute('lang', 'en');
         language_button.style.cssText += "background-image: url(assets/images/braziltumbnail20x40.png);";
@@ -150,7 +164,6 @@ const setLanguage = () => {
         nav_contact_anchor_aria[0].setAttribute('aria-label', 'Go to contact section of this page');
         accessibility_icon_alt[0].setAttribute('alt', 'accessibility icon');
         language_button_aria[0].setAttribute('aria-label', 'Button to switch language between Portuguese and English');
-        language_button_tooltip_aria[0].setAttribute('aria-label', 'Language');
         language_button_tooltip_aria[0].innerHTML = 'Language';
         therapy_woman_alt[0].setAttribute('alt', 'Woman getting therapy online');
         half_banner_alt[0].setAttribute('alt', 'Half of a banner image of heads with speech bubbles.');
@@ -159,5 +172,14 @@ const setLanguage = () => {
         message_label[0].innerHTML = 'Message';
         message_placeholder[0].setAttribute('placeholder', 'Please type your message here');
         submit_button_text[0].setAttribute('value', 'Submit');
+        icon_attributes_aria.forEach((ele) => ele.setAttribute('aria-label', 'Go to the icon8 page (opens in new tab)'));
+        shutterstock_attribute_aria[0].setAttribute('aria-label', 'Go to the shutterstock page (opens in new tab)');
+        youtube_anchor_aria[0].setAttribute('aria-label', 'Go to our youtube channel (opens in new tab)');
+        youtube_icon_alt[0].setAttribute('alt', 'youtube icon');  
+        tooltip_aria.forEach((ele) => ele.setAttribute('aria-label', 'Icon tooltip'));
+        twitter_anchor_aria[0].setAttribute('aria-label', 'Go to our twitter page (opens in new tab)');
+        twitter_icon_alt[0].setAttribute('alt', 'twitter icon');
+        linkedin_anchor_aria[0].setAttribute('aria-label', 'Go to our linkedin page (opens in new tab)');
+        linkedin_icon_alt[0].setAttribute('aria-label', 'linkedin icon');
     }
 }
