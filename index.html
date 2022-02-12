@@ -11,12 +11,12 @@
     </head>
     <body>
         <!-- LANDING IMAGE AND MESSAGE -->
-        <div id="msg_container" class="msg_container" aria-label="Psychedelic landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
-            <a href="#header_and_nav" class="welcome_msg" id="welcome_msg_1" aria-label="Go to main content of web page">   Welcome to An Tobair Segais!</a>
+        <div id="msg_container" class="msg_container" aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
+            <a href="#header_and_nav" class="welcome_msg" id="welcome_msg_1" aria-label="Go to main content of web page">Welcome to An Tobair Segais!</a>
             <a href="#header_and_nav" class="welcome_msg" id="welcome_msg_2" aria-label="Go to main content of web page">Connecting people and..</a>
             <a href="#header_and_nav" class="welcome_msg" id="welcome_msg_3" aria-label="Go to main content of web page">helping minds to grow</a>
-            <a href="#header_and_nav" class="down_arrow" aria-label="Go to main content of web page">
-                <img src="https://img.icons8.com/nolan/64/chevron-down.png" alt="down arrow ,prompting to scroll down"/>
+            <a href="#header_and_nav" class="down_arrow" id="down_arrow" aria-label="Go to main content of web page">
+                <img src="https://img.icons8.com/nolan/64/chevron-down.png" alt="down arrow ,prompting to scroll down" id="chevron_icon"/>
             </a>
         </div>
         <!-- HEADER AND NAV BAR -->
@@ -45,13 +45,13 @@
                 <h2 id="testimonials_section_heading">TESTIMONIALS</h2>
                 <div class="section_main_content">
                     <div class="testimonial_pair">
-                        <p class="testimonial" ><span id="testimonial_1">"Most popular self help<br>content creaters online<br>interpreted"</span><span class="commenter"> - Derky McGoo</span></p>
-                        <p class="testimonial" ><span id="testimonial_2">"Most popular self help<br>content creaters online<br>interpreted"</span><span class="commenter"> - Derky McGoo</span></p>
+                        <p class="testimonial" ><span id="testimonial_1">"The audio quality is so professional and clear."<br></span><span class="commenter"> - Vivian Mateus</span></p>
+                        <p class="testimonial" ><span id="testimonial_2">"It has helped me to communicate better with others"<br></span><span class="commenter"> - Maria Gorette</span></p>
                     </div>
                     <img src="assets/images/therapywomanblu.jpg" alt="Woman getting therapy online" class="banner_center">
                     <div class="testimonial_pair">
-                        <p class="testimonial" ><span id="testimonial_3">"Most popular self help<br>content creaters online<br>interpreted"</span><span class="commenter"> - Derky McGoo</span></p>
-                        <p class="testimonial" ><span id="testimonial_4">"Most popular self help<br>content creaters online<br>interpreted"</span><span class="commenter"> - Derky McGoo</span></p>
+                        <p class="testimonial" ><span id="testimonial_3">"It's great to have access to this life changing content"<br></span><span class="commenter"> - Thiago Daher</span></p>
+                        <p class="testimonial" ><span id="testimonial_4">"Her voice is very pleasant to listen to"<br></span><span class="commenter"> - Renata Serrador</span></p>
                     </div>
                 </div>
             </section >
@@ -72,7 +72,7 @@
             <section id="contact_section" class="contact_section" aria-labelledby="contact_section_heading">
                 <div>
                     <fieldset>
-                        <legend>Contact</legend>
+                        <legend id="contact_form_legend">Contact</legend>
                         <form  action="" method="POST">
                             <label for="email_field" >Email </label>
                             <input id="email_field" name="email_field" type="email" class="text_input" placeholder="example@yourmail.com" required >
