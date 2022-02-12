@@ -15,7 +15,7 @@ body {
 }
 
 
-h2{
+h2 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -74,17 +74,18 @@ h2{
     }
 }
 
-#msg_container > a {
-    text-decoration: none;
-}
-
-#msg_container {
+.msg_container {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6) url('../images/starheadwoman.jpg') no-repeat center center;
     background-size: cover;
     font-size: 35px;
 }
+
+.msg_container > a {
+    text-decoration: none;
+}
+
 
 #welcome_msg_1 {
     animation: fadeOut 16s infinite ease-in-out;
@@ -157,6 +158,50 @@ nav {
     background-color: #4f71e9;
 }
 
+button {
+    background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
+    background-size: cover;
+    opacity: 1;
+    height: 23px;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 3px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 19.25px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.header_and_nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin: auto 16px;
+    position: relative;
+    bottom: 23%;
+    vertical-align: middle;
+    float: left;
+    width: 65px;
+    height: 44px;
+   
+}
+
+.accessibility_icon {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    right: 60px;
+    margin: 0 11px 7px 0;
+}
+
 nav > ul {
     padding: 0;
     text-align: center;
@@ -191,56 +236,12 @@ li > a, nav > a, h1 > a, #message_container > a {
     text-decoration: none;
 }
 
-#header_and_nav {
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    z-index: 100;
-}
-
 h1 > a {
     display: inline-block;
     float: left;
     margin: auto 20px auto 50px;
     vertical-align: middle;
     font-size: 25px;
-}
-
-button {
-    background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
-    background-size: cover;
-    opacity: 1;
-    height: 23px;
-    width: 35px;
-    border: solid black 1px;
-    border-radius: 3px;
-    float: right;
-    position: absolute;
-    right: 30px;
-    top: 19.25px;
-}
-
-button:hover {
-    opacity: 0.5;
-}
-
-.logo {
-    margin: auto 16px;
-    position: relative;
-    bottom: 23%;
-    vertical-align: middle;
-    float: left;
-    width: 65px;
-    height: 44px;
-   
-}
-
-.accessibility_icon {
-    width: 29px;
-    height: 29px;
-    position: absolute;
-    right: 60px;
-    margin: 0 11px 7px 0;
 }
 
 /***TESTIMONIALS*************/
@@ -267,13 +268,13 @@ button:hover {
     border-radius: 50%;
 }
 
-p > span {
-    font-size: 25px;
-}
-
 .commenter {
     font-size: 15px;
     font-style: italic;
+}
+
+p > span {
+    font-size: 25px;
 }
 
 .testimonial_section > div {
@@ -372,6 +373,26 @@ footer {
     height: 100%;
 }
 
+.footer_section {
+    text-align: center;
+    width: 100%;
+    background-color: #4f71e9;
+    border: solid #ececec;
+    border-width: 3px 0 0 0;
+}
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 12px;
+    bottom: 3rem;
+    right: -3rem;
+    padding: 3px;
+    border: #ececec solid 2px;
+    border-radius: 10px;
+    background-color: #3773eb;
+}
+
 footer > ul {
     height: 99%;
     display: flex;
@@ -398,26 +419,6 @@ footer > ul > li:hover {
     left: 3px;
 }
 
-.footer_section {
-    text-align: center;
-    width: 100%;
-    background-color: #4f71e9;
-    border: solid #ececec;
-    border-width: 3px 0 0 0;
-}
-
-.tooltip {
-    position: absolute;
-    visibility: hidden;
-    font-size: 12px;
-    bottom: 3rem;
-    right: -3rem;
-    padding: 3px;
-    border: #ececec solid 2px;
-    border-radius: 10px;
-    background-color: #3773eb;
-}
-
 footer > ul > li:hover .tooltip {
     visibility: visible;
 }
@@ -429,6 +430,9 @@ footer > ul > li:hover .tooltip {
 }
 
 @media only screen and (max-width: 1046px) {
+    fieldset {
+        width: 280px;
+    }
     .section_main_content {
         flex-direction: column;
         margin: 0 20px 0 20px;
@@ -461,9 +465,6 @@ footer > ul > li:hover .tooltip {
     .about_section > h2 {
         margin-bottom: -30px;
     }
-    fieldset {
-        width: 280px;
-    }
 }
 @media only screen and (max-width: 986px) {
     .welcome_msg {
@@ -490,10 +491,13 @@ footer > ul > li:hover .tooltip {
     nav {
         text-align: center;
     }
+    .down_arrow {
+        display: none;
+    }
     .welcome_msg {
         font-size: 17px;
     }
-    #msg_container {
+    .msg_container {
         height: 40%;
     }
     .down_arrow {
@@ -501,9 +505,6 @@ footer > ul > li:hover .tooltip {
     }
     a > img {
         width: 49px;
-    }
-    .down_arrow {
-        display: none;
     }
     #about_section > div > .testimonial {
         width: 90%;
@@ -514,27 +515,27 @@ footer > ul > li:hover .tooltip {
     li {
         font-size: 15px;
     }
-    .logo {
-        left: -10px;
-        bottom: 18.5%;
-        width: 60px;
-    }
     button {
         right: 8px;
         height: 21px;
         width: 30px;
-    }
-    #accessibility_icon {
-        right: 30px;
-        height: 24px;
-        width: 24px;
-        top: 18px;
     }
     nav {
         font-size: 20px;
     }
     ul {
         right: 120px;
+    }
+    .logo {
+        left: -10px;
+        bottom: 18.5%;
+        width: 60px;
+    }
+    .accessibility_icon {
+        right: 30px;
+        height: 24px;
+        width: 24px;
+        top: 18px;
     }
     nav > ul {
         right: 90px;
@@ -543,29 +544,29 @@ footer > ul > li:hover .tooltip {
 }
 
 @media only screen and (max-width: 380px) {
-    .welcome_msg {
-        font-size: 16px;
-    }
     ul {
         right: 105px;
+    }
+    .welcome_msg {
+        font-size: 16px;
     }
 }
 
 
 @media only screen and (max-width: 360px) {
-    .welcome_message {
-        top: 100%;
-    }
     ul {
         right: 93px;
-    }
-    nav > ul {
-        right: 72px;
     }
     .logo {
         width: 50px;
         height: 38px;
         bottom: 10%;
+    }
+    .welcome_message {
+        top: 100%;
+    }
+    nav > ul {
+        right: 72px;
     }
 }  
 
