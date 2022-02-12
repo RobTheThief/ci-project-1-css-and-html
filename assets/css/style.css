@@ -178,6 +178,7 @@ button {
 }
 
 .header_and_nav {
+    display: flex;
     position: sticky;
     top: 0px;
     width: 100%;
