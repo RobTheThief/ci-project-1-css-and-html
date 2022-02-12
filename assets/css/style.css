@@ -182,10 +182,6 @@ li:hover {
    border-color: rgb(105, 103, 103);
 }
 
-nav > ul > li > a {
-   /*  color: black; */
-}
-
 nav > ul > li > a:hover {
     color: rgb(105, 103, 103);
 }
@@ -288,7 +284,7 @@ p > span {
 .about_section {
     background-color: #4e73ea;
     margin-top: -7%;
-    padding: 12% 17% 17% 17%;
+    padding: 12% 17% 13% 17%;
 }
 
 .blender {
@@ -437,27 +433,36 @@ footer > ul > li:hover .tooltip {
         flex-direction: column;
         margin: 0 20px 0 20px;
     }
-    #about_section > div > .testimonial {
+    .testimonial_section {
+        margin-bottom: 100px;
+    }
+    .contact_section {
+        padding: 62px 62px;
+    }
+    .about_section > div > .testimonial {
          width: 80%; min-width: 0;
          height: 100%; min-height: 0;
          position: relative;
-         top: -140px;
+         top: -110px;
     }
-    #about_section, #contact_section {
+    .about_section {
         margin: 0 0 -6 0;
-        padding: 62px 16px 62px 16px;
+        padding: 62px 0px 0px 0px;
     }
     .banner_left {
         width: 617px;
         height: 115px;
-        top: -170px;
+        top: -140px;
     }
-    #contact_section > .section_main_content > .banner_left {
+    .contact_section > .section_main_content > .banner_left {
         top: 0;
         width: 90%;
     }
+    .about_section > h2 {
+        margin-bottom: -30px;
+    }
     fieldset {
-        width: 85%;
+        width: 280px;
     }
 }
 @media only screen and (max-width: 986px) {
