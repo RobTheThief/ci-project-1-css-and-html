@@ -172,9 +172,9 @@ button {
     top: 19.25px;
 }
 
-button:hover {
+/* button:hover {
     opacity: 0.5;
-}
+} */
 
 .header_and_nav {
     position: sticky;
@@ -381,18 +381,6 @@ footer {
     border-width: 3px 0 0 0;
 }
 
-.tooltip {
-    position: absolute;
-    visibility: hidden;
-    font-size: 12px;
-    bottom: 3rem;
-    right: -3rem;
-    padding: 3px;
-    border: #ececec solid 2px;
-    border-radius: 10px;
-    background-color: #3773eb;
-}
-
 footer > ul {
     height: 99%;
     display: flex;
@@ -419,8 +407,34 @@ footer > ul > li:hover {
     left: 3px;
 }
 
+/**********TOOLTIPS**************/
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 12px;
+    bottom: 3rem;
+    right: -3rem;
+    padding: 3px;
+    border: #ececec solid 2px;
+    border-radius: 10px;
+    background-color: #3773eb;
+}
+
+.langtip {
+    bottom: 1rem;
+    right: 1px;
+    margin: 0;
+    padding: 3px;
+}
+
 footer > ul > li:hover .tooltip {
     visibility: visible;
+}
+
+button:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1128px) {
