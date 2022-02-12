@@ -291,6 +291,14 @@ p > span {
     padding: 12% 17% 17% 17%;
 }
 
+.blender {
+    background-image: linear-gradient(#4e73ea , #4e72ea00);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 10px;
+}
+
 #about_section > div > .testimonial {
     text-align: justify;
     margin: 50px 0 0 0;
@@ -354,7 +362,7 @@ input, textarea {
     height: 100%;
     margin-top: -100px;
     padding: 7% 17% 17% 17%;
-    background: no-repeat center center url("../images/canvasblugradient.png");
+    background: #4e73ea no-repeat center center url("../images/canvasblugradient.png");
     background-size: cover;
     border: #4e73ea solid;
     border-width: 10px 0 0 0;
@@ -436,7 +444,7 @@ footer > ul > li:hover .tooltip {
          top: -140px;
     }
     #about_section, #contact_section {
-        margin: 0;
+        margin: 0 0 -6 0;
         padding: 62px 16px 62px 16px;
     }
     .banner_left {
