@@ -68,3 +68,33 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 
 ![Footer](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/footerscreenshot.png)
+
+## TESTING
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official W3C validator.
+- CSS
+  - No errors were found when passing through the official(Jigsaw) validator.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the main branch.
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://robthethief.github.io/ci-project-1-css-and-html/
+
+## Credits  
+
+### Content 
+
+- The text for the Home page was taken from the An Tobair Segais youtube channel [YouTube Channel](https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw) and from the youtuber herself - Daniela Nascimento Gannon.
+- Translations were done by Daniela Nascimento Gannon.
+- The icons in the footer and the down chevron over the landing image were taken from [Icons8](https://icons8.com/)
+
+### Media
+
+- The photos used on the home page and the page logo are from [Shutterstock](https://www.shutterstock.com/)
