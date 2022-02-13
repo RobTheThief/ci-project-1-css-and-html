@@ -128,15 +128,16 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
         1. Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact sections of the page, logo link, and a language accessibility button.
         2. The navigation bar is positioned under the landing image and is sticky so it is always at the top of the page once the user scrolls past the landing image.
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings and content to gauge their competence.
-        1. On accessing the site and after clicking on the welcome message, down chevrol, or just scrolling down, the first section shows testimonials from youtube users who consume the content and are native Portuguese speakers.
+        1. On accessing the site and after clicking on the welcome message, down chevron, or just scrolling down, the first section shows testimonials from youtube users who consume the content and are native Portuguese speakers.
         2. In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab. 
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find links to social media and youtube channel.
-        1.In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab.
+        1. In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab.
     2. As a Returning Visitor, I want to find contact information.
-        1. The navigation bar has link for contact section. 2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
+        1. The navigation bar has a link for the contact section.
+        2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
         3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
 
 ### Further Testing
@@ -148,7 +149,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 ### Known Bugs
 
 -   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
--   On larger TVs the backgroud of the about scetion may move up under part of the testimonials.
+-   On larger TVs the backgroud of the about section may move up under part of the testimonials.
 -   On touch screens the language tooltip remains visible until the user touches somewhere else.
 
 ### Validator Testing 
