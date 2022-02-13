@@ -27,3 +27,11 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
   - This section allows the user to easily navigate the page on all devices without any excessive scrolling.    
 
 ![Nav Bar](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/navbarscreenshot.png)
+
+- __Testimonials__
+
+  - The testimonials section of the site allows the user to see what subscribers have said about the youtube channel.
+
+  - This allows a potential employer to gauge the youtubes abilities in interpreting the self help lessons.
+
+  ![Testimonials](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/testimonialsscreenshot.png)
