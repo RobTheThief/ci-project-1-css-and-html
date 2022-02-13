@@ -32,13 +32,6 @@ h2 {
     justify-content: center;
 }
 
-.banner_left {
-    height: 180px;
-    width: 400px;
-    position: relative;
-    top: 30px;
-}
-
 .icon_attributes {
     position: absolute;
     top: 0;
@@ -291,6 +284,13 @@ p > span {
     padding: 12% 17% 13% 17%;
 }
 
+.banner_left {
+    height: 180px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+}
+
 .blender {
     background-image: linear-gradient(#4e73ea , #4e72ea00);
     width: 100%;
@@ -500,10 +500,6 @@ button:hover .tooltip {
         width: 617px;
         height: 115px;
         top: -140px;
-    }
-    .contact_section > .section_main_content > .banner_left {
-        top: 0;
-        width: 90%;
     }
     .about_section > h2 {
         margin-bottom: -30px;
