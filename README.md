@@ -12,7 +12,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the interpreter.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings on and content to gauge their competence.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings and content to gauge their competence.
 
     -   #### Returning Visitor Goals
 
@@ -26,7 +26,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
         -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     -   #### Imagery
         -   Imagery is important. The large, landing image is designed to be striking, thought provoking and catch the user's attention.
-
+ 
 ## FEATURES
 
 ### EXISTING FEATURES
@@ -43,7 +43,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 - __Navigation Bar__
 
-    - Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact, sections of the page, logo link, and a language accessibility button.
+    - Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact sections of the page, logo link, and a language accessibility button.
     
     - The nav bar is positioned under the landing image and is sticky, so once the user has used the link on the landing image to scroll down it will remain at the top of the page as they naviagte the sections.
 
@@ -92,14 +92,53 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 ![Footer](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/footerscreenshot.png)
 
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+### Frameworks, Libraries & Programs Used
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Raleway' font into the style.css file which is used in all text on the site.
+1. [Icons8:](https://icons8.com/)
+    - Font Awesome was used to add social media icons and the down chevron on the landing image.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [GIMP:](https://www.gimp.org/)
+    - GIMP was used for resizing images and editing photos for the website.
+1. [Formspree:](https://formspree.io/)
+    - Formspree was used to handle the backend for the POST action from the contact section and send an email with the data from the form to an email address. 
+
 ## TESTING
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Testing User Stories from User Experience (UX) Section
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+-   #### First Time Visitor Goals
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the interpreter.
+            1. On accessing the site the user is welcomed with a landing image and welcome message including the website name, and prompted to scoll down or click on the chevron.
+            2. The user is the brought to the main content of the site with the navigation bar contains the site name and description "An Tobair Segais - Interpreting mentors".
+            3. At this point the user can also see the testimonials which adds to their understanding of what the site is about.
+            4. As the navigation bar is now visible the user can also see a link to the About section or if they are to scroll down it is the next section after Testimonials
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+            1. Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact sections of the page, logo link, and a language accessibility button.
+            2. The navigation bar is positioned under the landing image and is sticky so it is always at the top of the page once the user scrolls past the landing image.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings and content to gauge their competence.
+            1. On accessing the site and after clicking on the welcome message, down chevrol, or just scrolling down, the first section shows testimonials from youtube users who consume the content and are native Portuguese speakers.
+            2. In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+-   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to find links to social media and youtube channel.
+            1.In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab.
+        2. As a Returning Visitor, I want to find contact information.
+            1. The navigation bar has link for contact section. 2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
+            3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
+
 ### Validator Testing 
 
 - HTML
