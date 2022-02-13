@@ -4,6 +4,29 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 ![Responsive Mockup](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/readmedevices.png)
 
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the interpreter.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings on and content to gauge their competence.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to find links to social media and youtube channel.
+        2. As a Returning Visitor, I want to find contact information.
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are blue, white, and violet.
+    -   #### Typography
+        -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    -   #### Imagery
+        -   Imagery is important. The large, landing image is designed to be striking, thought provoking and catch the user's attention.
+
 ## FEATURES
 
 ### EXISTING FEATURES
@@ -70,7 +93,13 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 ![Footer](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/footerscreenshot.png)
 
 ## TESTING
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 ### Validator Testing 
 
 - HTML
