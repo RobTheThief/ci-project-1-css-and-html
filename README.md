@@ -28,6 +28,16 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 ![Nav Bar](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/navbarscreenshot.png)
 
+- __Language Accessibility Button__
+
+    - This is button on the nav bar allows the user to toggle between Portuguese and English versions of the site.
+    
+    - Text, aria labels, alts and html tag lang attribute are changed to assists screen readers in Portuguese or English.
+
+    - Being an interpreters site users may only speak one of these languages and so the option to switch is needed.
+
+![Language Button](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/langbuttonscreenshot.png)      
+
 - __Testimonials__
 
     - The testimonials section of the site allows the user to see what subscribers have said about the youtube channel.
