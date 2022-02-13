@@ -633,13 +633,13 @@ button:hover .tooltip {
 
 @media(max-height: 395px)  and (orientation: landscape){
     .down_arrow {
-        top: 10%;
+        top: 8%;
     }    
 }
 
 @media(max-height: 360px)  and (orientation: landscape){
     .down_arrow {
-        top: 4%;
+        top: 3%;
     }    
 }
 
