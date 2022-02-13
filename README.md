@@ -49,3 +49,12 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
     - This section allows the user to contact the interpreter. The user will be asked to submit their email address and a message.
 
 ![Contact](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/contactscreenshot.png)
+
+- __Footer__
+
+    - This section includes links to the Youtube channel, Twitter, and linkedIn. The links open to a new tab, have tooltips, and hover transitions.
+    
+    - The footer is valuable to the user as it provides a link to the channel, and Twitter account for updates, and LinkedIn for potential employers.
+
+
+![Footer](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/footerscreenshot.png)
