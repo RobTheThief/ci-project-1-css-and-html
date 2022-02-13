@@ -496,6 +496,13 @@ button:hover .tooltip {
     .about_section > h2 {
         margin-bottom: -30px;
     }
+    footer > ul > li:hover .tooltip {
+        visibility: hidden;
+    }
+    
+    button:hover .tooltip {
+        visibility: hidden;
+    }
 }
 @media only screen and (max-width: 986px) {
     .welcome_msg {

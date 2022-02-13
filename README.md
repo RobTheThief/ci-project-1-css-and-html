@@ -150,7 +150,6 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 -   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
 -   On larger TVs the backgroud of the about section may move up under part of the testimonials.
--   On touch screens the language tooltip remains visible until the user touches somewhere else.
 
 ### Validator Testing 
 
