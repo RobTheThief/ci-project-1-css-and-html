@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- LANDING IMAGE AND MESSAGE -->
-        <div id="msg_container" class="msg_container" aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
+        <div id="msg_container" class="msg_container" role="img" aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
             <a href="#main" class="welcome_msg" id="welcome_msg_1" aria-label="Go to main content of web page">Welcome to An Tobair Segais!</a>
             <a href="#main" class="welcome_msg" id="welcome_msg_2" aria-label="Go to main content of web page">Connecting people and..</a>
             <a href="#main" class="welcome_msg" id="welcome_msg_3" aria-label="Go to main content of web page">helping minds to grow</a>
@@ -36,7 +36,7 @@
                         <a href="index.html" id="h1_right">AN TOBAIR SEGAIS - INTERPRETING MENTORS</a>
                     </h1>
                     <img src="https://img.icons8.com/ios/50/000000/accessibility2.png" alt="accessibility icon" class='accessibility_icon' id="accessibility_icon"/>
-                    <button id="language_button" class='language_button' onClick=setLanguage() aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip" aria-label="Icon tooltip">Language</span></button>
+                    <button id="language_button" class='language_button' onClick=setLanguage() aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip" role="tooltip" aria-label="Icon tooltip">Language</span></button>
                 </nav>
             </header>
         </div>
@@ -61,7 +61,7 @@
                 <h2 id="about_section_heading">ABOUT</h2>
                 <div class="section_main_content">
                     <picture>
-                        <source srcset="assets/images/bannerleft.png" media="(min-width: 1046px)" alt="Half of a banner image of heads with speech bubbles." class="banner_left">
+                        <source srcset="assets/images/bannerleft.png" media="(min-width: 1046px)">
                         <img src="assets/images/fullbanner.png" alt="Banner image of heads with speech bubbles" class="banner_left"/>
                     </picture>
                     <p class="testimonial" id="about_ats">An Tobar Segais Interpreting Mentors project started from the desire and ambition to bring educational mental health content to Portuguese speakers and share with English speakers a compilation of the most qualified mentors out there.<br>The main areas covered here are related to self-improvement based on psychology, neuroscience, stoicism, western and eastern philosophy. 
@@ -79,7 +79,7 @@
                             <input id="email_field" name="email_field" type="email" class="text_input" placeholder="example@yourmail.com" required >
                             
                             <label for="message_field">Message </label>
-                            <textarea id="message_field" name="message_field" type="text" class="text_input" placeholder="Please type your message here" required ></textarea>
+                            <textarea id="message_field" name="message_field" class="text_input" placeholder="Please type your message here" required ></textarea>
                             
                             <input value="Submit" type="submit" class="button_submit">
                         </form>
@@ -102,19 +102,19 @@
                     <li>
                         <a href="https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw" target="_blank" aria-label="Go to our youtube channel (opens in new tab)">
                             <img src="https://img.icons8.com/nolan/64/youtube-squared.png" alt="youtube icon"/>
-                            <span class="tooltip" aria-label="icon tooltip">youtube</span>
+                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">youtube</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)">
                             <img src="https://img.icons8.com/nolan/64/twitter.png" alt="twitter icon"/>
-                            <span class="tooltip" aria-label="icon tooltip">twitter</span>
+                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">twitter</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/" target="_blank" aria-label="Go to our linkedin page (opens in new tab)">
                             <img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin icon" />
-                            <span class="tooltip" aria-label="icon tooltip">linkedin</span>
+                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">linkedin</span>
                         </a>
                     </li>
                 </ul>

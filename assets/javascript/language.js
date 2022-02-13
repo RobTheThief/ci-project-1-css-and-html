@@ -39,7 +39,6 @@ let chevron_alt = document.getElementById('chevron_icon');
 let accessibility_icon_alt = document.querySelectorAll('[alt="accessibility icon"]'); 
 let therapy_woman_alt = document.querySelectorAll('[alt="Woman getting therapy online"]');
 let half_banner_alt = document.querySelectorAll('[srcset="assets/images/bannerleft.png"]');
-let full_banner_alt = document.querySelectorAll('[src="assets/images/fullbanner.png"]'); 
 let youtube_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/youtube-squared.png"]'); 
 let twitter_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/twitter.png"]');
 let linkedin_icon_alt = document.querySelectorAll('[src="https://img.icons8.com/nolan/64/linkedin.png"]');
@@ -63,7 +62,7 @@ const siteTextEnglish = {
     testimonial_4: 'Her voice is very pleasant to listen to',
     about_section_heading: 'ABOUT',
     about_ats: 'An Tobar Segais Interpreting Mentors project started from the desire and ambition to bring educational mental health content to Portuguese speakers and share with English speakers a compilation of the most qualified mentors out there.<br>The main areas covered here are related to self-improvement based on psychology, neuroscience, stoicism, western and eastern philosophy.<br>Thank you for checking in. And, Keep improving',
-    contact_form_legend: 'Contact',
+    contact_form_legend: '<h2 id="contact_section_heading">Contact</h2>',
     title: 'An Tobair Segais - Interpreting Mentors',
 }
 
@@ -83,7 +82,7 @@ const siteTextPortuguese = {
     testimonial_4: 'A voz dela é muito agradável de escutar.',
     about_section_heading: 'SOBRE',
     about_ats: 'An Tobar Segais - Interpretando Mentores, nasceu do desejo e ambição de levar conteúdo educacional sobre saúde mental para falantes da língua portuguesa e compartilhar com falantes da língua inglesa uma compilação dos mais qualificados mentores disponíveis no Youtube.<br>As principais áreas abordadas aqui são relacionadas com aperfeiçoamento pessoal e auto-conhecimento, com base na psicologia, neurociência, estoicismo, filosofia ocidental e oriental.<br>Obrigada por aparecer por aqui. Continue se aperfeiçoando',
-    contact_form_legend: 'Contato',
+    contact_form_legend: '<h2 id="contact_section_heading">Contato</h2>',
     title: 'An Tobair Segais - Interpretando Mentores',
 }
 
@@ -121,7 +120,6 @@ const setLanguage = () => {
         language_button_tooltip_aria[0].innerHTML = 'Idioma';
         therapy_woman_alt[0].setAttribute('alt', 'Mulher fazendo terapia online'); 
         half_banner_alt[0].setAttribute('alt', 'Imagem em linha reta de quatro balões de diálogo com uma cabeça de mulher dentro de cada um deles');
-        full_banner_alt[0].setAttribute('alt', 'Imagem em linha reta de sete balões de diálogo com uma cabeça de mulher dentro de cada um deles'); 
         email_placeholder[0].setAttribute('placeholder', 'exemplo@seuemail.com');
         message_label[0].innerHTML = 'Mensagem'; 
         message_placeholder[0].setAttribute('placeholder', 'Por favor digite sua mensagem aqui'); 
@@ -167,7 +165,6 @@ const setLanguage = () => {
         language_button_tooltip_aria[0].innerHTML = 'Language';
         therapy_woman_alt[0].setAttribute('alt', 'Woman getting therapy online');
         half_banner_alt[0].setAttribute('alt', 'Half of a banner image of heads with speech bubbles.');
-        full_banner_alt[0].setAttribute('alt', 'Banner image of heads with speech bubbles');
         email_placeholder[0].setAttribute('placeholder', 'example@yourmail.com');
         message_label[0].innerHTML = 'Message';
         message_placeholder[0].setAttribute('placeholder', 'Please type your message here');
