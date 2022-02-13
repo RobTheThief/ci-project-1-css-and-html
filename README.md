@@ -139,6 +139,18 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
             1. The navigation bar has link for contact section. 2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
             3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
 
+### Further Testing
+
+-   The Website was tested on Google Chrome, Firefox, Microsoft Edge, Brave Browser, Ecosia and Safari.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S9, S10.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+    -   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
+    -   On some devices the top of the womans head on the landing image may overflow out of view but doesnt impast the aesthetics of the image.
+    -   On larger TVs the backgroud of the about scetion may move up under part of the testimonials.
+
 ### Validator Testing 
 
 - HTML
