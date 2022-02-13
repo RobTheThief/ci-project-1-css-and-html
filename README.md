@@ -146,10 +146,6 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S9, S10.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
-
--   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
-
 ### Validator Testing 
 
 - HTML
