@@ -25,7 +25,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
     -   #### Typography
         -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     -   #### Imagery
-        -   Imagery is important. The large, landing image is designed to be striking, thought provoking and catch the user's attention.
+        -   The large, landing image is designed to be striking, thought provoking and catch the user's attention.
  
 ## FEATURES
 
@@ -37,7 +37,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
     - Each text element and chevron are enclosed in anchors that will bring the user to the main contant of the page. 
 
-    - The landing image greets the use with an awe inspiring image to grab attention and peak interest.
+    - The landing image greets the user with an awe inspiring image to grab attention and peak interest.
 
 ![Landing Image](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/landingimagescreenshot.png)
 
@@ -55,7 +55,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
     - This is button on the nav bar allows the user to toggle between Portuguese and English versions of the site.
     
-    - Text, aria labels, alts and html tag lang attribute are changed to assists screen readers in Portuguese or English.
+    - Text, aria labels, alts and html tag lang attribute are changed using JavaScript to assists screen readers in Portuguese or English.
 
     - Being an interpreters site users may only speak one of these languages and so the option to switch is needed.
 
@@ -119,25 +119,25 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the interpreter.
-            1. On accessing the site the user is welcomed with a landing image and welcome message including the website name, and prompted to scoll down or click on the chevron.
-            2. The user is the brought to the main content of the site with the navigation bar contains the site name and description "An Tobair Segais - Interpreting mentors".
-            3. At this point the user can also see the testimonials which adds to their understanding of what the site is about.
-            4. As the navigation bar is now visible the user can also see a link to the About section or if they are to scroll down it is the next section after Testimonials
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-            1. Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact sections of the page, logo link, and a language accessibility button.
-            2. The navigation bar is positioned under the landing image and is sticky so it is always at the top of the page once the user scrolls past the landing image.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings and content to gauge their competence.
-            1. On accessing the site and after clicking on the welcome message, down chevrol, or just scrolling down, the first section shows testimonials from youtube users who consume the content and are native Portuguese speakers.
-            2. In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab. 
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the interpreter.
+        1. On accessing the site the user is welcomed with a landing image and welcome message including the website name, and prompted to scoll down or click on the chevron.
+        2. The user is the brought to the main content of the site with the navigation bar contains the site name and description "An Tobair Segais - Interpreting mentors".
+        3. At this point the user can also see the testimonials which adds to their understanding of what the site is about.
+        4. As the navigation bar is now visible the user can also see a link to the About section or if they are to scroll down it is the next section after Testimonials
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        1. Being a one page website, this fully responsive navigation bar contains links to Home, the About and Contact sections of the page, logo link, and a language accessibility button.
+        2. The navigation bar is positioned under the landing image and is sticky so it is always at the top of the page once the user scrolls past the landing image.
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their youtube channel and social media links to see their followings and content to gauge their competence.
+        1. On accessing the site and after clicking on the welcome message, down chevrol, or just scrolling down, the first section shows testimonials from youtube users who consume the content and are native Portuguese speakers.
+        2. In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab. 
 
 -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find links to social media and youtube channel.
-            1.In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab.
-        2. As a Returning Visitor, I want to find contact information.
-            1. The navigation bar has link for contact section. 2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
-            3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
+    1. As a Returning Visitor, I want to find links to social media and youtube channel.
+        1.In the footer section, under the contact section are links to the Youtube channel, Twitter, and LinkedIn which all open in a new tab.
+    2. As a Returning Visitor, I want to find contact information.
+        1. The navigation bar has link for contact section. 2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
+        3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
 
 ### Further Testing
 
@@ -147,9 +147,9 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 ### Known Bugs
 
-    -   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
-    -   On some devices the top of the womans head on the landing image may overflow out of view but doesnt impast the aesthetics of the image.
-    -   On larger TVs the backgroud of the about scetion may move up under part of the testimonials.
+-   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
+-   On larger TVs the backgroud of the about scetion may move up under part of the testimonials.
+-   On touch screens the language tooltip remains visible until the user touches somewhere else.
 
 ### Validator Testing 
 
