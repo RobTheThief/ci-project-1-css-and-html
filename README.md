@@ -149,7 +149,6 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 ### Known Bugs
 
 -   On mobile devices in landscape mode the tip of the chevron may temporarily move outside the screen. This doesnt impact the usability or look of the feature.
--   On larger TVs the backgroud of the about section may move up under part of the testimonials.
 
 ### Validator Testing 
 

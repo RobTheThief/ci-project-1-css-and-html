@@ -451,6 +451,18 @@ button:hover .tooltip {
     opacity: 1;
 }
 
+@media only screen and (min-width: 1596px) {
+    .about_section {
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 2836px) {
+    .about_section {
+        margin-top: -2%;
+    }
+}
+
 @media only screen and (max-width: 1128px) {
     h1 {
         display: none;
