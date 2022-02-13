@@ -546,9 +546,6 @@ button:hover .tooltip {
     .msg_container {
         height: 40%;
     }
-    .down_arrow {
-        top: -80%;
-    }
     a > img {
         width: 49px;
     }
@@ -642,7 +639,7 @@ button:hover .tooltip {
 
 @media(max-height: 360px)  and (orientation: landscape){
     .down_arrow {
-        top: 5%;
+        top: 4%;
     }    
 }
 
@@ -660,6 +657,6 @@ button:hover .tooltip {
 
 @media(max-width: 667px)  and (orientation: landscape){
     .welcome_msg {
-        font-size: 21px;
+        font-size: 18px;
     }  
 }
