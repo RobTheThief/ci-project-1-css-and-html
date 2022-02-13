@@ -317,7 +317,7 @@ form {
     width: 100%;
 }
 
-legend, label {
+label {
     color: #ececec;
     font-size: 25px; 
 }
@@ -368,10 +368,21 @@ input, textarea {
     border-width: 10px 0 0 0;
 }
 
+legend > h2 {
+    margin: 0;
+    padding: 0;
+    color: #ececec;
+    font-size: 25px;
+}
+
 input[type="email"] {
     height: 25px;
 }
 /*****FOOTER*****************/
+h3 {
+    display: none;
+}
+
 footer {
     height: 100%;
 }
