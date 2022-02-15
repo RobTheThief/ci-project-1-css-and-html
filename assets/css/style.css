@@ -29,6 +29,11 @@ h3 {
     display: none;
 }
 
+a {
+    color: #ececec;;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     text-align: center;
@@ -88,11 +93,6 @@ fieldset {
 
 textarea {
     height: 130px;
-}
-
-input, textarea {
-    margin-bottom: 10px;
-    background-color: rgba(2, 2, 2, 0.514);
 }
 
 footer {
@@ -219,7 +219,6 @@ footer {
     margin: auto 16px;
     position: relative;
     bottom: 23%;
-    vertical-align: middle;
     float: left;
     width: 65px;
     height: 44px;
@@ -259,16 +258,11 @@ li:hover {
    border-color: rgb(105, 103, 103);
 }
 
-nav > ul > li > a:hover {
+.nav_links:hover {
     color: rgb(105, 103, 103);
 }
 
-li > a, nav > a, h1 > a, #message_container > a {
-    color: #ececec;;
-    text-decoration: none;
-}
-
-h1 > a {
+.h1_anchor {
     float: left;
     margin: auto 20px auto 50px;
     vertical-align: middle;
@@ -285,7 +279,7 @@ h1 > a {
     max-width: 300px;
 }
 
-.testimonial {
+.site_text {
     font-size: 20px;
     font-weight: 900;
     padding: 0 0 20px 0;
@@ -304,11 +298,7 @@ h1 > a {
     font-style: italic;
 }
 
-p > span {
-    font-size: 25px;
-}
-
-.testimonial_section > div {
+.testimonials_main_content {
     justify-content: center;
 }
 
@@ -334,7 +324,7 @@ p > span {
     top: 10px;
 }
 
-.about_section > div > .testimonial {
+.about_text {
     text-align: justify;
     margin: 50px 0 0 0;
     width: 571px; min-width: 571px;
@@ -361,6 +351,8 @@ p > span {
 .text_input {
     width: 96.5%;
     color: #ececec;
+    margin-bottom: 10px;
+    background-color: rgba(2, 2, 2, 0.514);
 }
 
 .contact_section {
@@ -376,14 +368,14 @@ p > span {
     border-width: 10px 0 0 0;
 }
 
-legend > h2 {
+.contact_section_heading {
     margin: 0;
     padding: 0;
     color: #ececec;
     font-size: 25px;
 }
 
-input[type="email"] {
+.email_input {
     height: 25px;
 }
 /*****FOOTER*****************/
@@ -486,7 +478,7 @@ button:hover .tooltip {
     .contact_section {
         padding: 62px 62px;
     }
-    .about_section > div > .testimonial {
+    .about_text {
          width: 80%; min-width: 0;
          height: 100%; min-height: 0;
          position: relative;
@@ -501,7 +493,7 @@ button:hover .tooltip {
         height: 115px;
         top: -140px;
     }
-    .about_section > h2 {
+    .about_h2 {
         margin-bottom: -30px;
     }
     footer > ul > li:hover .tooltip {
@@ -546,10 +538,7 @@ button:hover .tooltip {
     .msg_container {
         height: 40%;
     }
-    a > img {
-        width: 49px;
-    }
-    #about_section > div > .testimonial {
+    .about_text {
         width: 90%;
     }
 }
