@@ -159,19 +159,19 @@ footer {
 }
 
 
-#welcome_msg_1 {
-    animation: fadeOut 16s infinite ease-in-out;
+.top_welcome_msg {
+    animation: top_welcome_msg_fade_out 16s infinite ease-in-out;
 }
 
-#welcome_msg_2 {
-    animation: fadeInOut1 16s infinite ease-in-out;
+.middle_welcome_msg {
+    animation: middle_welcome_msg_fade_In_Out 16s infinite ease-in-out;
 }
 
-#welcome_msg_3 {
-    animation: fadeInOut2 16s infinite ease-in-out;
+.bottom_welcome_msg {
+    animation: bottom_welcome_msg_fade_In_Out 16s infinite ease-in-out;
 }
 
-@keyframes fadeOut {
+@keyframes top_welcome_msg_fade_out {
     0% {
         color: #3773eb00;
     }
@@ -183,7 +183,7 @@ footer {
     }
 }
 
-@keyframes fadeInOut1{
+@keyframes middle_welcome_msg_fade_In_Out{
     0%,25% {
         color: #3773eb00;
     }
@@ -195,7 +195,7 @@ footer {
     }
 }
 
-@keyframes fadeInOut2{
+@keyframes bottom_welcome_msg_fade_In_Out{
     0%,25%,50% {
         color: #3773eb00;
     }
