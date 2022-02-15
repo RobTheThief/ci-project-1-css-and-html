@@ -16,14 +16,87 @@ body {
     margin: 0;
 }
 
-main {
-    padding-top: 60px;
-    margin-top: -60px;
+h1 {
+    margin: 0;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+h3 {
+    display: none;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    font-size: 20px;
+    font-family: raleway, sans-serif;
+    width: 100%;
+    height: 30px;
+    padding: 16px 0 16px 0;
+    border: solid #ececec;
+    border-width: 0 0 3px 0;
+    border-radius:  0 0 4px 4px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #4f71e9;
+}
+
+button {
+    background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
+    background-size: cover;
+    opacity: 1;
+    height: 23px;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 3px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 19.25px;
+}
+
+main {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    color: #ececec;
+    font-size: 25px; 
+}
+
+fieldset {
+    width: 490px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+textarea {
+    height: 130px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    background-color: rgba(2, 2, 2, 0.514);
+}
+
+footer {
+    height: 100%;
 }
 
 .section_main_content {
@@ -134,43 +207,6 @@ h2 {
     }
 }
 /*NAV BAR AND HEADER****************/
-h1 {
-    margin: 0;
-}
-
-header {
-    width: 100%;
-    text-align: center;
-}
-
-nav {
-    font-size: 20px;
-    font-family: raleway, sans-serif;
-    width: 100%;
-    height: 30px;
-    padding: 16px 0 16px 0;
-    border: solid #ececec;
-    border-width: 0 0 3px 0;
-    border-radius:  0 0 4px 4px;
-    margin-bottom: 0;
-    margin-top: 0;
-    background-color: #4f71e9;
-}
-
-button {
-    background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
-    background-size: cover;
-    opacity: 1;
-    height: 23px;
-    width: 35px;
-    border: solid black 1px;
-    border-radius: 3px;
-    float: right;
-    position: absolute;
-    right: 30px;
-    top: 19.25px;
-}
-
 .header_and_nav {
     display: flex;
     position: sticky;
@@ -233,7 +269,6 @@ li > a, nav > a, h1 > a, #message_container > a {
 }
 
 h1 > a {
-    display: inline-block;
     float: left;
     margin: auto 20px auto 50px;
     vertical-align: middle;
@@ -309,33 +344,6 @@ p > span {
 }
 
 /***CONTACT SECTION**********/
-form {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-label {
-    color: #ececec;
-    font-size: 25px; 
-}
-
-fieldset {
-    width: 490px;
-    height: 310px;
-    background-color: rgba(0, 0, 0, 0.473);
-}
-
-textarea {
-    height: 130px;
-}
-
-input, textarea {
-    margin-bottom: 10px;
-    background-color: rgba(2, 2, 2, 0.514);
-}
 
 .button_submit {
     padding: 5px;
@@ -379,14 +387,6 @@ input[type="email"] {
     height: 25px;
 }
 /*****FOOTER*****************/
-h3 {
-    display: none;
-}
-
-footer {
-    height: 100%;
-}
-
 .footer_section {
     text-align: center;
     width: 100%;

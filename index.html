@@ -1,125 +1,161 @@
 <!DOCTYPE html>
 <html id='html' lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="English - Portuguese. Self help youtubers and streamers translated.">
-        <meta name="keywords" content="English, Portuguese, Self help, mentors, youtube, An Tobair Segais, interpreter, interpreting, translator, Inglês, Portugês, Auto-ajuda, Mentores, Interprete, Interpretação, Tradutor">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="icon" type="image/png" href="/favicon.png"/>
-        <title id="title">An Tobair Segais - Interpreting Mentors</title>
-    </head>
-    <body>
-        <!-- LANDING IMAGE AND MESSAGE -->
-        <div id="msg_container" class="msg_container" role="img" aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
-            <a href="#main" class="welcome_msg" id="welcome_msg_1" aria-label="Go to main content of web page">Welcome to An Tobair Segais!</a>
-            <a href="#main" class="welcome_msg" id="welcome_msg_2" aria-label="Go to main content of web page">Connecting people and..</a>
-            <a href="#main" class="welcome_msg" id="welcome_msg_3" aria-label="Go to main content of web page">helping minds to grow</a>
-            <a href="#main" class="down_arrow" id="down_arrow" aria-label="Go to main content of web page">
-                <img src="https://img.icons8.com/nolan/64/chevron-down.png" alt="down arrow ,prompting to scroll down" id="chevron_icon"/>
-            </a>
-        </div>
-        <!-- HEADER AND NAV BAR -->
-        <div id="header_and_nav" class="header_and_nav">
-            <header aria-labelledby="h1_right"> 
-                <nav>
-                    <a href="index.html" aria-label="Go to home">
-                        <img src="assets/images/atsiconb.png" alt="logo" class="logo">
-                    </a>
-                    <ul>
-                        <li><a href="index.html" id="home" aria-label="Go to home">Home</a></li>
-                        <li><a href="#about_section" id="about" aria-label="Go to about section of this page">About</a></li>
-                        <li><a href="#contact_section" id="contact" aria-label="Go to contact section of this page">Contact</a></li>
-                    </ul>
-                    <h1>
-                        <a href="index.html" id="h1_right">AN TOBAIR SEGAIS - INTERPRETING MENTORS</a>
-                    </h1>
-                    <img src="https://img.icons8.com/ios/50/000000/accessibility2.png" alt="accessibility icon" class='accessibility_icon' id="accessibility_icon"/>
-                    <button id="language_button" class='language_button' onClick=setLanguage() aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip" role="tooltip" aria-label="Icon tooltip">Language</span></button>
-                </nav>
-            </header>
-        </div>
-        <main id="main">
-            <!-- TESTIMONIALS -->
-            <section id="testimonial_section" class="testimonial_section" aria-labelledby="testimonials_section_heading">
-                <h2 id="testimonials_section_heading">TESTIMONIALS</h2>
-                <div class="section_main_content">
-                    <div class="testimonial_pair">
-                        <p class="testimonial" ><span id="testimonial_1">"The audio quality is so professional and clear."<br></span><span class="commenter"> - Vivian Mateus</span></p>
-                        <p class="testimonial" ><span id="testimonial_2">"Thank you for your effort in translating this content."<br></span><span class="commenter"> - Maria Gorette</span></p>
-                    </div>
-                    <img src="assets/images/therapywomanblu.jpg" alt="Woman getting therapy online" class="banner_center">
-                    <div class="testimonial_pair">
-                        <p class="testimonial" ><span id="testimonial_3">"It's great to have access to this life changing content"<br></span><span class="commenter"> - Thiago Daher</span></p>
-                        <p class="testimonial" ><span id="testimonial_4">"Her voice is very pleasant to listen to"<br></span><span class="commenter"> - Renata Serrador</span></p>
-                    </div>
-                </div>
-            </section >
-            <!-- ABOUT -->
-            <section id="about_section" class="about_section" aria-labelledby="about_section_heading">
-                <h2 id="about_section_heading">ABOUT</h2>
-                <div class="section_main_content">
-                    <picture>
-                        <source srcset="assets/images/bannerleft.png" media="(min-width: 1046px)">
-                        <img src="assets/images/fullbanner.png" alt="Banner image of heads with speech bubbles" class="banner_left"/>
-                    </picture>
-                    <p class="testimonial" id="about_ats">An Tobar Segais Interpreting Mentors project started from the desire and ambition to bring educational mental health content to Portuguese speakers and share with English speakers a compilation of the most qualified mentors out there.<br>The main areas covered here are related to self-improvement based on psychology, neuroscience, stoicism, western and eastern philosophy. 
-                        <br>Thank you for checking in. And, Keep improving</p>
-                </div>
-            </section>
-            <div class="blender"></div> <!-- HAS A GRADIENT BACKGROUND THAT FADES TO TRANSPARENT TO BLEND TWO ELEMENTS TOGETHER -->
-            <!-- CONTACT -->
-            <section id="contact_section" class="contact_section" aria-labelledby="contact_section_heading">
-                <div>
-                    <fieldset>
-                        <legend id="contact_form_legend"><h2 id="contact_section_heading">Contact</h2></legend>
-                        <form  action="https://formspree.io/f/xqknqkgy" method="POST">
-                            <label for="email_field" >Email </label>
-                            <input id="email_field" name="email_field" type="email" class="text_input" placeholder="example@yourmail.com" required >
-                            
-                            <label for="message_field">Message </label>
-                            <textarea id="message_field" name="message_field" class="text_input" placeholder="Please type your message here" required ></textarea>
-                            
-                            <input value="Submit" type="submit" class="button_submit">
-                        </form>
-                    </fieldset>
-                </div>
-            </section>
-        </main>
-        <!-- ICON AND IMAGERY ATTRIBUTES (visibility: hidden) -->
-        <a href="https://icons8.com/icon/bYzsf9Bmocst/twitter" class="icon_attributes" target="_blank" aria-label="Go to the icon8 page (opens in new tab)">Twitter icon by Icons8.</a>
-        <a href="https://icons8.com/icon/63852/youtube-squared" class="icon_attributes" target="_blank" aria-label="Go to the icon8 page (opens in new tab)">YouTube Squared icon by Icons8.</a>
-        <a href="https://icons8.com/icon/44019/linkedin" class="icon_attributes" target="_blank" aria-label="Go to the icon8 page (opens in new tab)">LinkedIn icon by Icons8.</a>
-        <a href="https://icons8.com/icon/23608/web-accessibility" class="icon_attributes" target="_blank" aria-label="Go to the icon8 page (opens in new tab)">Web Accessibility icon by Icons8.</a>
-        <a href="https://icons8.com/icon/52510/chevron-down" class="icon_attributes" target="_blank" aria-label="Go to the icon8 page (opens in new tab)">Chevron Down icon by Icons8.</a>
-        <a href="https://wwww.shutterstock.com" class="icon_attributes" target="_blank" aria-label="Go to the shutterstock page (opens in new tab)">All other imagery sourced from shutterstock.</a>
-        <!-- FOOTER WITH SOCIAL MEDIA LINKS -->
-        <section class="footer_section" aria-labelledby="footer_heading">
-            <footer>
-                <h3 id="footer_heading">Footer</h3>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="English - Portuguese. Self help youtubers and streamers translated.">
+    <meta name="keywords" content="English, Portuguese, Self help, mentors, youtube, An Tobair Segais, interpreter, interpreting, translator,
+        Inglês, Portugês, Auto-ajuda, Mentores, Interprete, Interpretação, Tradutor">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title id="title">An Tobair Segais - Interpreting Mentors</title>
+</head>
+
+<body>
+    <!-- LANDING IMAGE AND MESSAGE -->
+    <div id="msg_container" class="msg_container" role="img"
+        aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
+        <a href="#main" class="welcome_msg" id="welcome_msg_1" aria-label="Go to main content of web page">Welcome to An
+            Tobair Segais!</a>
+        <a href="#main" class="welcome_msg" id="welcome_msg_2" aria-label="Go to main content of web page">Connecting
+            people and..</a>
+        <a href="#main" class="welcome_msg" id="welcome_msg_3" aria-label="Go to main content of web page">helping minds
+            to grow</a>
+        <a href="#main" class="down_arrow" id="down_arrow" aria-label="Go to main content of web page">
+            <img src="https://img.icons8.com/nolan/64/chevron-down.png" alt="down arrow ,prompting to scroll down"
+                id="chevron_icon" />
+        </a>
+    </div>
+    <!-- HEADER AND NAV BAR -->
+    <div id="header_and_nav" class="header_and_nav">
+        <header aria-labelledby="h1_right">
+            <nav>
+                <a href="index.html" aria-label="Go to home">
+                    <img src="assets/images/atsiconb.png" alt="logo" class="logo">
+                </a>
                 <ul>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw" target="_blank" aria-label="Go to our youtube channel (opens in new tab)">
-                            <img src="https://img.icons8.com/nolan/64/youtube-squared.png" alt="youtube icon"/>
-                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">youtube</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)">
-                            <img src="https://img.icons8.com/nolan/64/twitter.png" alt="twitter icon"/>
-                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/" target="_blank" aria-label="Go to our linkedin page (opens in new tab)">
-                            <img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin icon" />
-                            <span class="tooltip" role="tooltip" aria-label="icon tooltip">linkedin</span>
-                        </a>
-                    </li>
+                    <li><a href="index.html" id="home" aria-label="Go to home">Home</a></li>
+                    <li><a href="#about_section" id="about" aria-label="Go to about section of this page">About</a></li>
+                    <li><a href="#contact_section" id="contact"
+                            aria-label="Go to contact section of this page">Contact</a></li>
                 </ul>
-            </footer>
+                <h1>
+                    <a href="index.html" id="h1_right">AN TOBAIR SEGAIS - INTERPRETING MENTORS</a>
+                </h1>
+                <img src="https://img.icons8.com/ios/50/000000/accessibility2.png" alt="accessibility icon"
+                    class='accessibility_icon' id="accessibility_icon" />
+                <button id="language_button" class='language_button' onClick=setLanguage()
+                    aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip"
+                        role="tooltip" aria-label="Icon tooltip">Language</span></button>
+            </nav>
+        </header>
+    </div>
+    <main id="main">
+        <!-- TESTIMONIALS -->
+        <section id="testimonial_section" class="testimonial_section" aria-labelledby="testimonials_section_heading">
+            <h2 id="testimonials_section_heading">TESTIMONIALS</h2>
+            <div class="section_main_content">
+                <div class="testimonial_pair">
+                    <p class="testimonial"><span id="testimonial_1">"The audio quality is so professional and
+                            clear."<br></span><span class="commenter"> - Vivian Mateus</span></p>
+                    <p class="testimonial"><span id="testimonial_2">"Thank you for your effort in translating this
+                            content."<br></span><span class="commenter"> - Maria Gorette</span></p>
+                </div>
+                <img src="assets/images/therapywomanblu.jpg" alt="Woman getting therapy online" class="banner_center">
+                <div class="testimonial_pair">
+                    <p class="testimonial"><span id="testimonial_3">"It's great to have access to this life changing
+                            content"<br></span><span class="commenter"> - Thiago Daher</span></p>
+                    <p class="testimonial"><span id="testimonial_4">"Her voice is very pleasant to listen
+                            to"<br></span><span class="commenter"> - Renata Serrador</span></p>
+                </div>
+            </div>
         </section>
-            <script src="assets/javascript/language.js"></script>
-    </body>
+        <!-- ABOUT -->
+        <section id="about_section" class="about_section" aria-labelledby="about_section_heading">
+            <h2 id="about_section_heading">ABOUT</h2>
+            <div class="section_main_content">
+                <picture>
+                    <source srcset="assets/images/bannerleft.png" media="(min-width: 1046px)">
+                    <img src="assets/images/fullbanner.png" alt="Banner image of heads with speech bubbles"
+                        class="banner_left" />
+                </picture>
+                <p class="testimonial" id="about_ats">An Tobar Segais Interpreting Mentors project started from the
+                    desire and ambition to bring educational mental health content to Portuguese speakers and share with
+                    English speakers a compilation of the most qualified mentors out there.<br>The main areas covered
+                    here are related to self-improvement based on psychology, neuroscience, stoicism, western and
+                    eastern philosophy.
+                    <br>Thank you for checking in. And, Keep improving</p>
+            </div>
+        </section>
+        <div class="blender"></div>
+        <!-- HAS A GRADIENT BACKGROUND THAT FADES TO TRANSPARENT TO BLEND TWO ELEMENTS TOGETHER -->
+        <!-- CONTACT -->
+        <section id="contact_section" class="contact_section" aria-labelledby="contact_section_heading">
+            <div>
+                <fieldset>
+                    <legend id="contact_form_legend">
+                        <h2 id="contact_section_heading">Contact</h2>
+                    </legend>
+                    <form action="https://formspree.io/f/xqknqkgy" method="POST">
+                        <label for="email_field">Email </label>
+                        <input id="email_field" name="email_field" type="email" class="text_input"
+                            placeholder="example@yourmail.com" required>
+
+                        <label for="message_field">Message </label>
+                        <textarea id="message_field" name="message_field" class="text_input"
+                            placeholder="Please type your message here" required></textarea>
+
+                        <input value="Submit" type="submit" class="button_submit">
+                    </form>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <!-- ICON AND IMAGERY ATTRIBUTES (visibility: hidden) -->
+    <a href="https://icons8.com/icon/bYzsf9Bmocst/twitter" class="icon_attributes" target="_blank"
+        aria-label="Go to the icon8 page (opens in new tab)">Twitter icon by Icons8.</a>
+    <a href="https://icons8.com/icon/63852/youtube-squared" class="icon_attributes" target="_blank"
+        aria-label="Go to the icon8 page (opens in new tab)">YouTube Squared icon by Icons8.</a>
+    <a href="https://icons8.com/icon/44019/linkedin" class="icon_attributes" target="_blank"
+        aria-label="Go to the icon8 page (opens in new tab)">LinkedIn icon by Icons8.</a>
+    <a href="https://icons8.com/icon/23608/web-accessibility" class="icon_attributes" target="_blank"
+        aria-label="Go to the icon8 page (opens in new tab)">Web Accessibility icon by Icons8.</a>
+    <a href="https://icons8.com/icon/52510/chevron-down" class="icon_attributes" target="_blank"
+        aria-label="Go to the icon8 page (opens in new tab)">Chevron Down icon by Icons8.</a>
+    <a href="https://wwww.shutterstock.com" class="icon_attributes" target="_blank"
+        aria-label="Go to the shutterstock page (opens in new tab)">All other imagery sourced from shutterstock.</a>
+    <!-- FOOTER WITH SOCIAL MEDIA LINKS -->
+    <section class="footer_section" aria-labelledby="footer_heading">
+        <footer>
+            <h3 id="footer_heading">Footer</h3>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw" target="_blank"
+                        aria-label="Go to our youtube channel (opens in new tab)">
+                        <img src="https://img.icons8.com/nolan/64/youtube-squared.png" alt="youtube icon" />
+                        <span class="tooltip" role="tooltip" aria-label="icon tooltip">youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"
+                        aria-label="Go to our twitter page (opens in new tab)">
+                        <img src="https://img.icons8.com/nolan/64/twitter.png" alt="twitter icon" />
+                        <span class="tooltip" role="tooltip" aria-label="icon tooltip">twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                        aria-label="Go to our linkedin page (opens in new tab)">
+                        <img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin icon" />
+                        <span class="tooltip" role="tooltip" aria-label="icon tooltip">linkedin</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </section>
+    <script src="assets/javascript/language.js"></script>
+</body>
+
 </html>
