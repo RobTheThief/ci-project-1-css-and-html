@@ -215,6 +215,7 @@ footer {
 .hamburger_button {
     float: left;
     position: absolute;
+    width: 30px;
     display: none;
     border: #4f71e9 solid 1px;
     left: 20px;
