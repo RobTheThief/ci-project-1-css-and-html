@@ -505,13 +505,15 @@ li:hover {
     top: 10px;
 }
 
-.about_text {
-    text-align: justify;
+.about_text_container {
     margin: 50px 0 0 0;
     width: 571px; min-width: 571px;
-    height: 220px;
     border-left: black solid 3px;
     padding: 0 0 0 20px;
+}
+
+.about_text {
+    text-align: justify;
 }
 
 /***CONTACT SECTION**********/
@@ -666,7 +668,7 @@ button:hover .tooltip {
     .contact_section {
         padding: 62px 62px;
     }
-    .about_text {
+    .about_text_container {
          width: 80%; min-width: 0;
          height: 100%; min-height: 0;
          position: relative;
@@ -735,7 +737,7 @@ button:hover .tooltip {
     .msg_container {
         height: 40%;
     }
-    .about_text {
+    .about_text_container {
         width: 90%;
     }
 }
