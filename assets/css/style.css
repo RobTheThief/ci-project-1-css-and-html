@@ -542,6 +542,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100%;
     margin-top: -100px;
     padding: 7% 17% 17% 17%;
@@ -551,13 +552,21 @@ li:hover {
     border-width: 10px 0 0 0;
 }
 
-.contact_section_heading {
+.contact_blurb {
+    text-align: justify;
+}
+
+.contact_legend {
     margin: 0;
     padding: 0;
     color: #ececec;
     font-size: 25px;
     font-family: raleway, sans-serif;
     font-weight: 500;
+}
+
+.contact_section_heading {
+    
 }
 
 .email_input {
