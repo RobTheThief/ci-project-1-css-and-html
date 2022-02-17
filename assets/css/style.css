@@ -68,7 +68,8 @@ form {
 
 label {
     color: #ececec;
-    font-size: 25px; 
+    font-size: 25px;
+    font-family: raleway, sans-serif;
 }
 
 fieldset {
@@ -529,6 +530,8 @@ li:hover {
     color: #ececec;
     margin-bottom: 10px;
     background-color: black;
+    font-family: raleway, sans-serif;
+    font-size: 12px;
 }
 
 .contact_section {
@@ -549,6 +552,8 @@ li:hover {
     padding: 0;
     color: #ececec;
     font-size: 25px;
+    font-family: raleway, sans-serif;
+    font-weight: 500;
 }
 
 .email_input {
