@@ -62,7 +62,7 @@ button {
     border: solid black 1px;
     border-radius: 3px;
     float: right;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 19.25px;
 }
