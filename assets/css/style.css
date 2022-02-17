@@ -796,7 +796,7 @@ button:hover .tooltip {
 
 @media(max-height: 360px)  and (orientation: landscape){
     .down_arrow {
-        top: 2%;
+        top: -7%;
     }    
 }
 
