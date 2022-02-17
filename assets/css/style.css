@@ -226,7 +226,7 @@ footer {
    
 }
 /* https://css-tricks.com/set-text-on-a-circle/ */
-.letter_container_top {
+.letter_container {
     font: 10px Monaco, MonoSpace;
     font-weight: 900;
     height: 43px;
@@ -235,20 +235,6 @@ footer {
     align-items: flex-start;
     justify-content: center;
     position: absolute;
-    left: 53px;
-    top: 5px;
-    transform-origin: bottom center;
-}
-
-.letter_container_bottom {
-    font: 10px Monaco, MonoSpace;
-    font-weight: 900;
-    height: 43px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: absolute;
-    width: 20px;
     left: 53px;
     top: 5px;
     transform-origin: bottom center;
