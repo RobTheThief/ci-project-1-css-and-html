@@ -225,14 +225,6 @@ footer {
     height: 44px;
    
 }
-
-.accessibility_icon {
-    width: 29px;
-    height: 29px;
-    position: absolute;
-    right: 60px;
-    margin: 0 11px 7px 0;
-}
 /* https://css-tricks.com/set-text-on-a-circle/ */
 .letter_container_top {
     font: 10px Monaco, MonoSpace;
@@ -605,12 +597,6 @@ button:hover .tooltip {
     }
 }
 
-@media only screen and (max-width: 1128px) {
-    h1 {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 1046px) {
     fieldset {
         width: 280px;
@@ -712,12 +698,6 @@ button:hover .tooltip {
         left: -10px;
         bottom: 18.5%;
         width: 60px;
-    }
-    .accessibility_icon {
-        right: 30px;
-        height: 24px;
-        width: 24px;
-        top: 18px;
     }
     nav > ul {
         right: 90px;
