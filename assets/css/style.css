@@ -43,7 +43,7 @@ nav {
     font-size: 20px;
     font-family: raleway, sans-serif;
     width: 100%;
-    height: 60px;
+    height: 70px;
     padding: 16px 0 16px 0;
     border: solid #ececec;
     border-width: 0 0 3px 0;
@@ -218,18 +218,18 @@ footer {
 .logo {
     margin: auto 16px;
     position: relative;
-    left: 15px;
+    left: 20px;
     top: 18%;
     float: left;
-    width: 65px;
-    height: 44px;
+    width: 55px;
+    height: 40px;
    
 }
 /* https://css-tricks.com/set-text-on-a-circle/ */
 .letter_container {
     font: 10px Monaco, MonoSpace;
     font-weight: 900;
-    height: 43px;
+    height: 45px;
     width: 20px;
     display: flex;
     align-items: flex-start;
@@ -367,7 +367,7 @@ nav > ul {
     margin: 0;
     float: right;
     position: relative;
-    right: 130px;
+    right: 85px;
 }
 
 nav > ul > li {
@@ -666,35 +666,22 @@ button:hover .tooltip {
 }
 
 @media only screen and (max-width: 480px) {
-    li {
-        font-size: 15px;
-    }
     button {
         right: 8px;
-        height: 21px;
-        width: 30px;
-    }
-    nav {
-        font-size: 20px;
-    }
-    ul {
-        right: 120px;
-    }
-    .logo {
-        left: -10px;
-        bottom: 18.5%;
-        width: 60px;
     }
     nav > ul {
-        right: 90px;
-        bottom: 2.5px;
+        display: flex;
+        flex-direction: column;
+        right: 60px;
+        bottom: 10px;
+    }
+    nav > ul > li {
+        padding-bottom: 5px;
+        font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    ul {
-        right: 105px;
-    }
     .welcome_msg {
         font-size: 16px;
     }
@@ -702,19 +689,8 @@ button:hover .tooltip {
 
 
 @media only screen and (max-width: 360px) {
-    ul {
-        right: 93px;
-    }
-    .logo {
-        width: 50px;
-        height: 38px;
-        bottom: 10%;
-    }
     .welcome_message {
         top: 100%;
-    }
-    nav > ul {
-        right: 72px;
     }
 }  
 
