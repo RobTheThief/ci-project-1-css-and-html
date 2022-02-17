@@ -43,7 +43,7 @@ nav {
     font-size: 20px;
     font-family: raleway, sans-serif;
     width: 100%;
-    height: 30px;
+    height: 60px;
     padding: 16px 0 16px 0;
     border: solid #ececec;
     border-width: 0 0 3px 0;
@@ -218,7 +218,8 @@ footer {
 .logo {
     margin: auto 16px;
     position: relative;
-    bottom: 23%;
+    left: 15px;
+    top: 18%;
     float: left;
     width: 65px;
     height: 44px;
@@ -232,7 +233,156 @@ footer {
     right: 60px;
     margin: 0 11px 7px 0;
 }
+/* https://css-tricks.com/set-text-on-a-circle/ */
+.letter_container_top {
+    font: 10px Monaco, MonoSpace;
+    font-weight: 900;
+    height: 43px;
+    width: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 53px;
+    top: 5px;
+    transform-origin: bottom center;
+}
 
+.letter_container_bottom {
+    font: 10px Monaco, MonoSpace;
+    font-weight: 900;
+    height: 43px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 20px;
+    left: 53px;
+    top: 5px;
+    transform-origin: bottom center;
+}
+
+.char_bottom {
+    transform: scale(-1,-1);
+}
+/* TOP ARCH */
+.char1 {
+    transform: rotate(-70.527deg);
+  }
+.char2 {
+    transform: rotate(-61.054deg);
+}
+.char3 {
+    transform: rotate(-51.581deg);
+}
+.char4 {
+    transform: rotate(-42.108deg);
+}
+.char5 {
+    transform: rotate(-32.635deg);
+}
+.char6 {
+    transform: rotate(-23.162deg);
+}
+.char7 {
+    transform: rotate(-13.689deg);
+}
+.char8 {
+    transform: rotate(-4.216deg);
+}
+.char9 {
+    transform: rotate(5.257deg);
+}
+.char10 {
+    transform: rotate(14.73deg);
+}
+.char11 {
+    transform: rotate(24.203deg);
+}
+.char12 {
+    transform: rotate(33.676deg);
+}
+.char13 {
+    transform: rotate(43.149deg);
+}
+.char14 {
+    transform: rotate(52.622deg);
+}
+.char15 {
+    transform: rotate(62.095deg);
+}
+.char16 {
+    transform: rotate(71.568deg);
+}
+.char17 {
+    transform: rotate(81.041deg);
+}
+/* BOTTOM ARCH */
+.char18 {
+    transform: rotate(-80deg);
+}
+.char19 {
+    transform: rotate(-89.473deg);
+}
+.char20 {
+    transform: rotate(-98.946deg);
+}
+.char21 {
+    transform: rotate(-108.419deg);
+}
+.char22 {
+    transform: rotate(-117.892deg);
+}
+.char23 {
+    transform: rotate(-127.365deg);
+}
+.char24 {
+    transform: rotate(-136.838deg);
+}
+.char25 {
+    transform: rotate(-146.311deg);
+}
+.char26 {
+    transform: rotate(-155.784deg);
+}
+.char27 {
+    transform: rotate(-165.257deg);
+}
+.char28 {
+    transform: rotate(-174.73deg);
+}
+.char29 {
+    transform: rotate(-184.203deg);
+}
+.char30 {
+    transform: rotate(-193.676deg);
+}
+.char31 {
+    transform: rotate(-203.149deg);
+}
+.char32 {
+    transform: rotate(-212.622deg);
+}
+.char33 {
+    transform: rotate(-222.095deg);
+}
+.char34 {
+    transform: rotate(-231.568deg);
+}
+.char35 {
+    transform: rotate(-241.041deg);
+}
+.char36 {
+    transform: rotate(-250.514deg);
+}
+.char37 {
+    transform: rotate(-259.987deg);
+}
+.char38 {
+    transform: rotate(-269.46deg);
+}
+
+/* *********************************************** */
 nav > ul {
     padding: 0;
     text-align: center;
