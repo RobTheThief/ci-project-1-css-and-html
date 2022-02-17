@@ -513,7 +513,7 @@ li:hover {
 }
 
 .about_text {
-    text-align: justify;
+    text-align: left;
 }
 
 /***CONTACT SECTION**********/
@@ -555,7 +555,7 @@ li:hover {
 }
 
 .contact_blurb {
-    text-align: justify;
+    text-align: center;
 }
 
 .contact_legend {
@@ -565,10 +565,6 @@ li:hover {
     font-size: 25px;
     font-family: raleway, sans-serif;
     font-weight: 500;
-}
-
-.contact_section_heading {
-    
 }
 
 .email_input {
@@ -739,6 +735,9 @@ button:hover .tooltip {
     }
     .about_text_container {
         width: 90%;
+    }
+    .site_text {
+        font-size: 15px;;
     }
 }
 
