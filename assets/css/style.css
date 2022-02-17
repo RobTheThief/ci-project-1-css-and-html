@@ -209,7 +209,7 @@ footer {
     float: right;
     position: fixed;
     right: 30px;
-    top: 19.25px;
+    top: 37px;
 }
 
 .hamburger_button {
@@ -218,7 +218,7 @@ footer {
     display: none;
     border: #4f71e9 solid 1px;
     left: 20px;
-    top: 12px;
+    top: 17px;
     background-color: #4f71e9;
 }
 
@@ -241,6 +241,10 @@ footer {
     background-color: #4e72eada;
     transition: width 0.3s ease-in-out;
     overflow: hidden;
+}
+
+.nav_bar_menu {
+    top: 17.5px;
 }
 
 .hamburger_visible.hamburger_menu {
