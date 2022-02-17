@@ -137,6 +137,10 @@ footer {
     animation: bounce 2s infinite linear;
 }
 
+.chevron {
+    color:#4e73ea;
+}
+
 @keyframes bounce {
     0% {
         margin-top: 50px;
