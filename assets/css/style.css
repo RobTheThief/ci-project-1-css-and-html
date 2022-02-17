@@ -673,13 +673,13 @@ button:hover .tooltip {
          top: -110px;
     }
     .about_section {
-        margin: 0 0 -6px 0;
-        padding: 62px 0px 0px 0px;
+        margin: -62px 0 -6px 0;
+        padding: 124px 0px 0px 0px;
     }
     .banner_left {
         width: 617px;
         height: 115px;
-        top: -140px;
+        top: -198px;
     }
     .about_h2 {
         margin-bottom: -30px;
