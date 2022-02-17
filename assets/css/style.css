@@ -214,11 +214,11 @@ footer {
 
 .hamburger_button {
     float: left;
-    position: relative;
+    position: absolute;
     display: none;
     border: #4f71e9 solid 1px;
     left: 20px;
-    top: 17px;
+    top: 33px;
     background-color: #4f71e9;
 }
 
@@ -267,7 +267,6 @@ footer {
     float: left;
     width: 55px;
     height: 40px;
-   
 }
 
 .burger_list_item {
@@ -700,10 +699,6 @@ button:hover .tooltip {
     .nav_bar_menu {
         display: none;
     }
-    .logo {
-        left: 24px;
-    }
-}
 
 @media only screen and (max-width: 890px) {
     .banner_center {
