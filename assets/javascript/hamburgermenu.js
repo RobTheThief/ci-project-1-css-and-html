@@ -1,11 +1,11 @@
-let menu = document.getElementById("menu");
+let hamburger_menu = document.getElementById("hamburger_menu");
 
 function toggleMenu () {
-    menu.classList.toggle("hamburger_visible");
+    hamburger_menu.classList.toggle("hamburger_visible");
 }
 
 function closeMenu () {
-    menu.classList.remove("hamburger_visible");
+    hamburger_menu.classList.remove("hamburger_visible");
 }
 
 document.body.addEventListener("scroll", function() { closeMenu() }, false);

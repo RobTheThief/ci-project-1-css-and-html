@@ -225,24 +225,23 @@ footer {
     color: #ececec;
 }
 
-.menu {
+.hamburger_menu {
     width: 0px;
-    height: 100px;
+    height: 89vh;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     position: absolute;
     left: -3px;
     top: 101.25px;
     color:#4e73ea;
-    background-color: #4e73ea;
-   
+    background-color: #4e72eada;
     transition: width 0.3s ease-in-out;
     overflow: hidden;
 }
 
-.hamburger_visible.menu {
+.hamburger_visible.hamburger_menu {
     width: 150px;
 }
 
@@ -265,6 +264,29 @@ footer {
    
 }
 
+.burger_list_item {
+    padding: 0 0 0 60px;
+    border: solid #ececec;
+    border-width: 0 0 3px 0;
+    border-radius: 10%;
+}
+
+.nav_links {
+   position: relative;
+   top: 2px;
+}
+
+.nav_links:hover {
+    color: rgb(105, 103, 103);
+}
+
+.h1_anchor {
+    float: left;
+    margin: auto 20px auto 50px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
 nav > ul {
     padding: 0;
     text-align: center;
@@ -279,30 +301,12 @@ nav > ul > li {
     display: inline-block;
     font-family: raleway, sans-serif;
     font-weight: 900;
-    border: solid #ececec;
-    border-width: 0 0 3px 0;
-    border-radius: 10%;
     transition: 0.3s ease-out;
     color: #ececec;
 }
 
-.burger_list_item {
-    padding: 0 0 0 60px;
-}
-
 li:hover {
    border-color: rgb(105, 103, 103);
-}
-
-.nav_links:hover {
-    color: rgb(105, 103, 103);
-}
-
-.h1_anchor {
-    float: left;
-    margin: auto 20px auto 50px;
-    vertical-align: middle;
-    font-size: 25px;
 }
 /* https://css-tricks.com/set-text-on-a-circle/ */
 .letter_container {
