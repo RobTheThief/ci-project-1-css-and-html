@@ -214,6 +214,7 @@ footer {
 .hamburger_button {
     float: left;
     position: relative;
+    display: none;
     border: #4f71e9 solid 1px;
     left: 20px;
     top: 12px;
@@ -227,15 +228,16 @@ footer {
 .menu {
     width: 0px;
     height: 100px;
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     left: -3px;
     top: 101.25px;
     color:#4e73ea;
     background-color: #4e73ea;
-    border:#ececec solid;
-    border-width: 0 3px 3px 0;
-    border-radius: 5px;
+   
     transition: width 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -255,12 +257,52 @@ footer {
 .logo {
     margin: auto 16px;
     position: relative;
-    left: 20px;
+    left: 57px;
     top: 18%;
     float: left;
     width: 55px;
     height: 40px;
    
+}
+
+nav > ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 85px;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    font-family: raleway, sans-serif;
+    font-weight: 900;
+    border: solid #ececec;
+    border-width: 0 0 3px 0;
+    border-radius: 10%;
+    transition: 0.3s ease-out;
+    color: #ececec;
+}
+
+.burger_list_item {
+    padding: 0 0 0 60px;
+}
+
+li:hover {
+   border-color: rgb(105, 103, 103);
+}
+
+.nav_links:hover {
+    color: rgb(105, 103, 103);
+}
+
+.h1_anchor {
+    float: left;
+    margin: auto 20px auto 50px;
+    vertical-align: middle;
+    font-size: 25px;
 }
 /* https://css-tricks.com/set-text-on-a-circle/ */
 .letter_container {
@@ -397,43 +439,7 @@ footer {
     transform: rotate(-269.46deg);
 }
 
-/* *********************************************** */
-nav > ul {
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    float: right;
-    position: relative;
-    right: 85px;
-}
-
-nav > ul > li {
-    list-style: none;
-    display: inline-block;
-    font-family: raleway, sans-serif;
-    font-weight: 900;
-    border: solid #ececec;
-    border-width: 0 0 3px 0;
-    border-radius: 10%;
-    transition: 0.3s ease-out;
-    color: #ececec;
-}
-
-li:hover {
-   border-color: rgb(105, 103, 103);
-}
-
-.nav_links:hover {
-    color: rgb(105, 103, 103);
-}
-
-.h1_anchor {
-    float: left;
-    margin: auto 20px auto 50px;
-    vertical-align: middle;
-    font-size: 25px;
-}
-
+/*********************************************** */
 /***TESTIMONIALS*************/
 .testimonial_section {
     margin-top: 100px;
@@ -666,6 +672,15 @@ button:hover .tooltip {
 @media only screen and (max-width: 986px) {
     .welcome_msg {
         font-size: 25px;
+    }
+    .hamburger_button {
+        display: inline-block;
+    }
+    .nav_bar_menu {
+        display: none;
+    }
+    .logo {
+        left: 24px;
     }
 }
 

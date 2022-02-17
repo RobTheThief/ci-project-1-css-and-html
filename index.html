@@ -16,7 +16,7 @@
     <script src="assets/javascript/hamburgermenu.js" defer></script>
 </head>
 
-<body onscroll="closeMenu()">
+<body>
     <!-- LANDING IMAGE AND MESSAGE -->
     <div id="msg_container" class="msg_container" role="img"
         aria-label="Hallucinatory landing image of woman looking up with starts in her head. Contains animated text and a scroll down arrow">
@@ -41,10 +41,10 @@
                     <i class="fa fa-bars fa-2x hamburger" aria-hidden="true"></i>
                 </button>
                 <ul class="menu" id="menu">
-                    <li><a href="#main" id="home" class="nav_links" aria-label="Go to home">Home</a></li>
-                    <li><a href="#about_section" id="about" class="nav_links"
+                    <li class="burger_list_item"><a href="#main" id="home" class="nav_links" aria-label="Go to home">Home</a></li>
+                    <li class="burger_list_item"><a href="#about_section" id="about" class="nav_links"
                             aria-label="Go to about section of this page">About</a></li>
-                    <li><a href="#contact_section" id="contact" class="nav_links"
+                    <li class="burger_list_item"><a href="#contact_section" id="contact" class="nav_links"
                             aria-label="Go to contact section of this page">Contact</a></li>
                 </ul>
                 <a href="index.html" aria-label="Go to home">
@@ -173,7 +173,7 @@
                         </span>
                     </h1>
                 </a>
-                <ul>
+                <ul class="nav_bar_menu" id="menu">
                     <li><a href="#main" id="home" class="nav_links" aria-label="Go to home">Home</a></li>
                     <li><a href="#about_section" id="about" class="nav_links"
                             aria-label="Go to about section of this page">About</a></li>
@@ -182,11 +182,12 @@
                 </ul>
                 <button id="language_button" class='language_button' onClick=setLanguage()
                     aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip"
-                        role="tooltip" aria-label="Icon tooltip">Language</span></button>
+                        role="tooltip" aria-label="Icon tooltip">Language</span>
+                </button>
             </nav>
         </header>
     </div>
-    <main id="main" onscroll="closeMenu()">
+    <main id="main">
         <!-- TESTIMONIALS -->
         <section id="testimonial_section" class="testimonial_section" aria-labelledby="testimonials_section_heading">
             <h2 id="testimonials_section_heading">TESTIMONIALS</h2>
