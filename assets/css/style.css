@@ -198,7 +198,7 @@ footer {
     }
 }
 /*NAV BAR AND HEADER****************/
-.language_button {
+.language_button_bar {
     background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
     background-size: cover;
     opacity: 1;
@@ -207,9 +207,25 @@ footer {
     border: solid black 1px;
     border-radius: 3px;
     float: right;
-    position: fixed;
-    right: 30px;
-    top: 37px;
+    position: relative;
+    left: 180px;
+    top: 21px;
+}
+
+.language_button_burger {
+    background: grey url(../images/braziltumbnail20x40.png) no-repeat center center;
+    background-size: cover;
+    opacity: 1;
+    height: 23px;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 3px;
+    /* 
+    float: right;
+    position: relative;
+    left: 180px;
+    top: 21px; 
+    */
 }
 
 .hamburger_button {
@@ -262,9 +278,9 @@ footer {
 
 .logo {
     margin: auto 16px;
-    position: relative;
+    position: absolute;
     left: 57px;
-    top: 18%;
+    top: 28%;
     float: left;
     width: 55px;
     height: 40px;
@@ -702,7 +718,6 @@ button:hover .tooltip {
     footer > ul > li:hover .tooltip {
         visibility: hidden;
     }
-    
     button:hover .tooltip {
         visibility: hidden;
     }
@@ -711,13 +726,23 @@ button:hover .tooltip {
     .welcome_msg {
         font-size: 25px;
     }
+    .language_button_bar {
+        display: none;
+    }
     .hamburger_button {
         display: inline-block;
     }
     .nav_bar_menu {
         display: none;
     }
-
+    .letter_container {
+        left: auto;
+        right: 60px;
+    }
+    .logo {
+        left: auto;
+        right: 27px;
+    }
 @media only screen and (max-width: 890px) {
     .banner_center {
         padding: 4em 0 4em 0;

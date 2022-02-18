@@ -41,11 +41,17 @@
                     <i class="fa fa-bars fa-2x hamburger" aria-hidden="true"></i>
                 </button>
                 <ul class="hamburger_menu" id="hamburger_menu">
-                    <li class="burger_list_item"><a href="#main" id="home" class="nav_links" aria-label="Go to home">Home</a></li>
+                    <li class="burger_list_item"><a href="#main" id="home" class="nav_links"
+                            aria-label="Go to home">Home</a></li>
                     <li class="burger_list_item"><a href="#about_section" id="about" class="nav_links"
                             aria-label="Go to about section of this page">About</a></li>
                     <li class="burger_list_item"><a href="#about_contact_blender" id="contact" class="nav_links"
                             aria-label="Go to contact section of this page">Contact</a></li>
+                    <li>
+                        <button id="language_button_burger" class='language_button_burger' onClick=setLanguage()
+                            aria-label="Button to switch language between Portuguese and English">
+                        </button>
+                    </li>
                 </ul>
                 <a href="index.html" aria-label="Go to home">
                     <img src="assets/images/atsiconb.png" alt="logo" class="logo">
@@ -180,7 +186,7 @@
                     <li><a href="#about_contact_blender" id="contact" class="nav_links"
                             aria-label="Go to contact section of this page">Contact</a></li>
                 </ul>
-                <button id="language_button" class='language_button' onClick=setLanguage()
+                <button id="language_button_bar" class='language_button_bar' onClick=setLanguage()
                     aria-label="Button to switch language between Portuguese and English"><span class="tooltip langtip"
                         role="tooltip" aria-label="Icon tooltip">Language</span>
                 </button>
@@ -197,13 +203,15 @@
                     <p class="site_text testimonial"><span id="testimonial_1">"The audio quality is so professional and
                             clear."<br></span><span class="commenter"> - Vivian Mateus</span></p>
                     <img src="assets/images/maria.png" alt="Image of Maria Gorette" class="reviewer_image">
-                    <p class="site_text testimonial"><span id="testimonial_2">"Thank you for your effort in translating this
+                    <p class="site_text testimonial"><span id="testimonial_2">"Thank you for your effort in translating
+                            this
                             content."<br></span><span class="commenter"> - Maria Gorette</span></p>
                 </div>
                 <img src="assets/images/therapywomanblu.jpg" alt="Woman getting therapy online" class="banner_center">
                 <div class="testimonial_pair">
                     <img src="assets/images/thiago.png" alt="Image of Thiago Daher" class="reviewer_image">
-                    <p class="site_text testimonial"><span id="testimonial_3">"It's great to have access to this life changing
+                    <p class="site_text testimonial"><span id="testimonial_3">"It's great to have access to this life
+                            changing
                             content"<br></span><span class="commenter"> - Thiago Daher</span></p>
                     <img src="assets/images/renata.png" alt="Image of Renata Serrador" class="reviewer_image">
                     <p class="site_text testimonial"><span id="testimonial_4">"Her voice is very pleasant to listen
@@ -221,18 +229,21 @@
                         class="banner_left" />
                 </picture>
                 <div class="about_text_container">
-                    <p class="site_text about_text" id="about_ats_1">An Tobar Segais Interpreting Mentors project started from
+                    <p class="site_text about_text" id="about_ats_1">An Tobar Segais Interpreting Mentors project
+                        started from
                         the
-                        desire and ambition to bring educational mental health content to Portuguese speakers and share with
+                        desire and ambition to bring educational mental health content to Portuguese speakers and share
+                        with
                         English speakers a compilation of the most qualified mentors out there.
                     </p>
-                    <p  class="site_text about_text" id="about_ats_2">
-                        The main areas covered here are related to self-improvement based on psychology, neuroscience, stoicism, western and
+                    <p class="site_text about_text" id="about_ats_2">
+                        The main areas covered here are related to self-improvement based on psychology, neuroscience,
+                        stoicism, western and
                         eastern philosophy.
                     </p>
-                    <p  class="site_text about_text" id="about_ats_3">
+                    <p class="site_text about_text" id="about_ats_3">
                         Thank you for checking in. And, Keep improving
-                    <p>
+                        <p>
                 </div>
             </div>
         </section>
@@ -241,7 +252,8 @@
         <!-- CONTACT -->
         <section id="contact_section" class="contact_section" aria-labelledby="contact_section_heading">
             <h2 id="contact_section_heading" class="contact_section_heading">CONTACT</h2>
-            <p class="contact_blurb site_text">If you have any questions about my work, or if you need any interpreting or translation please send me a message.</p>
+            <p class="contact_blurb site_text">If you have any questions about my work, or if you need any interpreting
+                or translation please send me a message.</p>
             <div>
                 <fieldset>
                     <legend id="contact_form_legend" class="contact_legend">Contact form</legend>
