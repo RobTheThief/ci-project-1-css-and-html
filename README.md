@@ -23,10 +23,13 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
     -   #### Colour Scheme
         -   The two main colours used are blue, white, and violet.
     -   #### Typography
-        -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+        -   The Raleway font is the main font used throughout the website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Monaco with a backup of MonoSpace is used for the logo text.
     -   #### Imagery
         -   The large, landing image is designed to be striking, thought provoking and catch the user's attention.
- 
+    -   #### Wireframe
+        - This wireframe was used initially to get an idea of the style and layout of the page would be.
+        ![Wireframe](https://share.balsamiq.com/c/8JGqwnBHLL4nU4YhoQatUX.png)
+
 ## FEATURES
 
 ### EXISTING FEATURES
