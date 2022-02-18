@@ -590,6 +590,7 @@ li:hover {
 
 .contact_blurb {
     text-align: center;
+    min-width: 309px;
 }
 
 .email_input {
