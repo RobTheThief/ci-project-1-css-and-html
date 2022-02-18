@@ -762,6 +762,7 @@ button:hover .tooltip {
     }
     .welcome_msg {
         font-size: 17px;
+        width: 45%;
     }
     .msg_container {
         height: 40%;
