@@ -743,6 +743,7 @@ button:hover .tooltip {
         left: auto;
         right: 27px;
     }
+}
 @media only screen and (max-width: 890px) {
     .banner_center {
         padding: 4em 0 4em 0;
@@ -829,6 +830,6 @@ button:hover .tooltip {
 
 @media(max-width: 667px)  and (orientation: landscape){
     .welcome_msg {
-        font-size: 17px;
-    }
+        font-size: 21px;
+    } 
 }

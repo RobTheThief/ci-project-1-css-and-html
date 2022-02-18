@@ -153,8 +153,10 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 - HTML
   - No errors were returned when passing through the official W3C validator.
+  ![HTML VALIDATOR](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/htmlvalidator.png)
 - CSS
   - No errors were found when passing through the official(Jigsaw) validator.
+  ![CSS VALIDATOR](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/jigsawvalidated.png)
 
 ## Deployment
 
