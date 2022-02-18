@@ -27,8 +27,8 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
     -   #### Imagery
         -   The large, landing image is designed to be striking, thought provoking and catch the user's attention.
     -   #### Wireframe
-        - This wireframe was used initially to get an idea of the style and layout of the page would be.
-        ![Wireframe](https://share.balsamiq.com/c/8JGqwnBHLL4nU4YhoQatUX.png)
+        - This wireframe was used initially to get an idea of the style and layout of the page would be: 
+        [Wireframe Screenshot](https://share.balsamiq.com/c/8JGqwnBHLL4nU4YhoQatUX.png)
 
 ## FEATURES
 
@@ -110,7 +110,7 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Raleway' font into the style.css file which is used in all text on the site.
-1. [Icons8:](https://icons8.com/)
+1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add social media icons and the down chevron on the landing image.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -184,7 +184,8 @@ The live link can be found here - https://robthethief.github.io/ci-project-1-css
 
 - The text for the Home page was taken from the An Tobair Segais youtube channel [YouTube Channel](https://www.youtube.com/channel/UCjLcF0ca0OfAnRfxxyO7Zyw) and from the youtuber herself - Daniela Nascimento Gannon.
 - Translations were done by Daniela Nascimento Gannon.
-- The icons in the footer and the down chevron over the landing image were taken from [Icons8](https://icons8.com/)
+- The icons in the footer and the down chevron over the landing image were taken from [Font Awesome](https://fontawesome.com/)
+- The code used to wrap the title around the logo was based on this article by Chris Coyier: [CSS Tricks - Chris Coyier](https://css-tricks.com/set-text-on-a-circle/)
 
 ### Media
 

@@ -330,7 +330,9 @@ nav > ul > li {
 li:hover {
    border-color: rgb(105, 103, 103);
 }
-/* https://css-tricks.com/set-text-on-a-circle/ */
+
+/***** TITLE WRAPPED AROUND LOGO****************
+BASED ON THIS ARTICLE BY Chris Coyier: https://css-tricks.com/set-text-on-a-circle/ */
 .letter_container {
     font: 9px Monaco, MonoSpace;
     font-weight: 900;
