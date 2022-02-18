@@ -141,7 +141,7 @@ footer {
 .msg_container {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6) url('../images/starheadwoman.jpg') no-repeat center center;
+    background: rgba(0, 0, 0, 0.6) url('../images/starheadwoman.webp') no-repeat center center;
     background-size: cover;
     font-size: 35px;
 }
@@ -584,7 +584,7 @@ BASED ON THIS ARTICLE BY Chris Coyier: https://css-tricks.com/set-text-on-a-circ
     height: 100%;
     margin-top: -100px;
     padding: 7% 17% 17% 17%;
-    background: #4e73ea no-repeat center center url("../images/canvasblugradient.png");
+    background: #4e73ea no-repeat center center url("../images/canvasblugradient.webp");
     background-size: cover;
     border: #4e73ea solid;
     border-width: 10px 0 0 0;
