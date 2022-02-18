@@ -90,7 +90,7 @@ const siteTextPortuguese = {
     about_ats_1: 'An Tobar Segais - Interpretando Mentores, nasceu do desejo e ambição de levar conteúdo educacional sobre saúde mental para falantes da língua portuguesa e compartilhar com falantes da língua inglesa uma compilação dos mais qualificados mentores disponíveis no Youtube.', 
     about_ats_2: 'As principais áreas abordadas aqui são relacionadas com aperfeiçoamento pessoal e auto-conhecimento, com base na psicologia, neurociência, estoicismo, filosofia ocidental e oriental.',
     about_ats_3: 'Obrigada por aparecer por aqui. Continue se aperfeiçoando',
-    contact_blurb: 'Se voce tiver alguma pergunta sobre meu trabalho, ou se voce precisar de servicos de interprecao e traducao, por favor enviei me uma mensagem.',
+    contact_blurb: 'Se você tiver alguma pergunta sobre o meu trabalho, ou se você precisar de serviços de interpreção e tradução, por favor enviei me uma mensagem.',
 }
 
 /* TOGGLE SITE LANGUAGE */
