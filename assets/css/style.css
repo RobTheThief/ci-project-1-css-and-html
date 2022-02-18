@@ -688,6 +688,10 @@ button:hover .tooltip {
         flex-direction: column;
         margin: 0 20px 0 20px;
     }
+    .reviewer_image {
+        height: 150px;
+        width: 150px;
+    }
     .testimonial_section {
         margin-bottom: 100px;
     }
