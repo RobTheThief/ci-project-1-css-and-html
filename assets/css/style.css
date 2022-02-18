@@ -688,7 +688,7 @@ button:hover .tooltip {
         top: 0px;
     }
     .contact_section {
-        padding: 62px 62px;
+        padding: 84px 62px;
     }
     .about_text_container {
          width: 80%; min-width: 0;
@@ -697,7 +697,7 @@ button:hover .tooltip {
          top: -110px;
     }
     .about_section {
-        margin: -62px 0 -6px 0;
+        margin: -62px 0 -60px 0;
         padding: 124px 0px 0px 0px;
     }
     .banner_left {
