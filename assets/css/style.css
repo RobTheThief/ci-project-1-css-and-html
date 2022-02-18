@@ -109,7 +109,7 @@ footer {
     height: 50px;
     width: 45%;
     color: #3773eb00;
-    position: relative;
+    position: absolute;
     top: 20%;
     margin-left: 15px;
     padding: 10px 0 10px 0;
@@ -154,14 +154,17 @@ footer {
 
 .top_welcome_msg {
     animation: top_welcome_msg_fade_out 16s infinite ease-in-out;
+    top: 10px;
 }
 
 .middle_welcome_msg {
     animation: middle_welcome_msg_fade_In_Out 16s infinite ease-in-out;
+    top: 55px;
 }
 
 .bottom_welcome_msg {
     animation: bottom_welcome_msg_fade_In_Out 16s infinite ease-in-out;
+    top: 100px;
 }
 
 @keyframes top_welcome_msg_fade_out {
