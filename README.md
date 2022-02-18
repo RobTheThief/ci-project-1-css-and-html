@@ -50,9 +50,13 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
     
     - The nav bar is positioned under the landing image and is sticky, so once the user has used the link on the landing image to scroll down it will remain at the top of the page as they naviagte the sections.
 
+    -  Being responsive the navigation bar tranisitions to a slide out hamburger menu for mobile devices, that automatically closes on scroll, or when the icon is tapped. 
+
     - This section allows the user to easily navigate the page on all devices without any excessive scrolling.    
 
 ![Nav Bar](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/navbarscreenshot.png)
+
+![Hamburger Menu](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/burgerscreenshot.png)
 
 - __Language Accessibility Button__
 
@@ -142,6 +146,13 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
         1. The navigation bar has a link for the contact section.
         2. This brings the user to the contact form where they can fill out the fields and message the interpreter directly.
         3. On clicking submit they will fill out a captcha and then be given the option to return to the site.  
+
+### Known Bugs
+
+- There are currently no known bugs.  However many were found and squashed along the way. Here are some examples;
+    - Positioning the hamburger icon gave different results in Chrome vs Firefox using positioning relative to the parent element. So to resolve this I used absolute positioning to get the same result on both browsers.
+    - The placeholder text in the textarea element in the contact form would not show. After researching the problem came up with no answers, I found that I had returned the closing tag to the next line to keep my code tidy and but this had entered some blank spaces and tabs to the input, negating the placeholder until deleted.
+
 
 ### Further Testing
 
