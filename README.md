@@ -169,8 +169,8 @@ An Tobair Segair - Interpreting Mentors is a portfolio site for an interpreter a
   - No errors were found when passing through the official(Jigsaw) validator.
   ![CSS VALIDATOR](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/jigsawvalidated.png)
 - Accessibility
-  - I confirm that the colours and fonts are eay to read and accessible by running it through the lighthouse in devtools.
-  
+  - I confirm that the colours and fonts are easy to read and accessible by running it through the lighthouse in devtools.
+
   ![LIGHTHOUSE METRICS](https://github.com/RobTheThief/ci-project-1-css-and-html/blob/main/media/lighthousemetrics.png)
 
 ## Deployment
