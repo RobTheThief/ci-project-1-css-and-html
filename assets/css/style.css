@@ -75,6 +75,7 @@ label {
 fieldset {
     width: 490px;
     height: 310px;
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.473);
 }
 
@@ -586,15 +587,6 @@ li:hover {
 
 .contact_blurb {
     text-align: center;
-}
-
-.contact_legend {
-    margin: 0;
-    padding: 0;
-    color: #ececec;
-    font-size: 25px;
-    font-family: raleway, sans-serif;
-    font-weight: 500;
 }
 
 .email_input {
