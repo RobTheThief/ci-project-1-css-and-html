@@ -112,6 +112,7 @@ footer {
     position: relative;
     top: 20%;
     margin-left: 15px;
+    padding: 10px 0 10px 0;
 }
 
 .down_arrow {
@@ -119,7 +120,7 @@ footer {
     justify-content: left;
     margin-top: 50px;
     margin-left: 20px;
-    position: relative;
+    position: absolute;
     padding-left: 30px;
     top: 60%;
     animation: bounce 2s infinite linear;
@@ -801,33 +802,9 @@ button:hover .tooltip {
     }
 }  
 
-@media (max-height: 810px) and (orientation: landscape){
-    .down_arrow {
-        top: 55%;
-    }    
-}
-
-@media (max-height: 706px) and (orientation: landscape){
-    .down_arrow {
-        top: 40%;
-    }    
-}
-
-@media (max-height: 465px) and (orientation: landscape){
-    .down_arrow {
-        top: 17%;
-    }
-}
-
-@media(max-height: 395px)  and (orientation: landscape){
-    .down_arrow {
-        top: 7%;
-    }    
-}
-
 @media(max-height: 360px)  and (orientation: landscape){
     .down_arrow {
-        top: -7%;
+        top: 40%;
     }    
 }
 
